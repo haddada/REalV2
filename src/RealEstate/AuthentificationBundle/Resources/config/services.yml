@@ -1,0 +1,4 @@
+services:
+#    real_estate_authentification.example:
+#        class: RealEstate\AuthentificationBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

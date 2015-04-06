@@ -1,0 +1,22 @@
+real_estate_authentification:
+    resource: "@RealEstateAuthentificationBundle/Resources/config/routing.yml"
+    prefix:   /
+
+sprint2_real_estate_admin:
+    resource: "@sprint2RealEstateAdminBundle/Resources/config/routing.yml"
+    prefix:   /
+
+real_estate:
+    resource: "@realEstateBundle/Resources/config/routing.yml"
+    prefix:   /
+
+real_estate_admin:
+    resource: "@sprint2RealEstateAdminBundle/Resources/config/routing.yml"
+    prefix:   /Admin
+    
+app:
+    resource: @AppBundle/Controller/
+    type:     annotation
+dcs_rating:
+    resource: "@DCSRatingBundle/Resources/config/routing.xml"
+    prefix:   /dcs

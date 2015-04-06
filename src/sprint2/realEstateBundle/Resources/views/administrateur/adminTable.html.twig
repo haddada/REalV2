@@ -1,0 +1,39 @@
+{% extends "realEstateBundle:administrateur:dashboard.html.twig" %}
+
+{% block tableau %}
+<div class="box">
+                <div class="box-header">
+                  <h3 class="box-title">Responsive Hover Table</h3>
+                  <div class="box-tools">
+                    <div class="input-group">
+                      <input type="text" name="table_search" class="form-control input-sm pull-right" style="width: 150px;" placeholder="Search">
+                      <div class="input-group-btn">
+                        <button class="btn btn-sm btn-default"><i class="fa fa-search"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- /.box-header -->
+                <div class="box-body table-responsive no-padding">
+                  <table class="table table-hover">
+                    <tbody><tr>
+                      <th>ID</th>
+                      <th>User</th>
+                      <th>Date</th>
+                      <th>Status</th>
+                      <th>Reason</th>
+                    </tr>
+                    {% for administrateur in administrateurs %}
+                    <tr>
+                      <td>{{administrateur.id}}</td>
+                      <td>{{administrateur.nom}}</td>
+                      <td>{{administrateur.prenom}}</td>
+                      <td><span class="label label-success">Approved</span></td>
+                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                    </tr>
+                    {% endfor %}
+
+                  </tbody></table>
+                </div><!-- /.box-body -->
+              </div>
+
+{% endblock %}

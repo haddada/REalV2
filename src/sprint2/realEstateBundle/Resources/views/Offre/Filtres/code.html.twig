@@ -1,0 +1,35 @@
+
+
+  
+<div class="col-3 text-right col-middle">
+    <div class="h4 text-light">
+          Code postal
+    </div>
+</div>
+
+<div class="col-lg-9 form-code col-middle">
+      <div class="row row-condensed">
+        <div class="col-md-4 col-sm-12 row-space-1">
+          <div class="select select-block">
+            <select name="code" required >
+            {%for code in codes %}
+              <option value=" {{code.codepostal}}"> {{code.codepostal}}</option>
+             {%endfor%} 
+            </select>
+          </div>
+        </div>
+      </div>
+</div>
+
+<script>
+/*
+  $(".form-code").click(function(){
+     str =$( ".form-code" ).serialize() ;
+
+      $.get("{{path('offre_search_code')}}?"+str,function( data ) {
+           $( ".id" ).html( data );           
+      })
+
+  })
+*/
+</script>

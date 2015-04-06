@@ -1,0 +1,51 @@
+
+
+    <div class="row">
+            <div class="col-lg-2 col-md-12 filter-label">
+              <label>Villes</label>
+            </div>
+            <div class="col-lg-9 col-md-11">
+            <div class="row row-condensed filters-columns">
+
+
+
+          <div class="col-md-4">
+            <label class="media checkbox text-truncate" title="{{villes[0].ville}}">
+              <input type="checkbox" name="neighborhood" value="{{villes[0].ville}}" class="pull-left">
+              {{villes[0].ville}}
+            </label>
+          </div>
+
+          <div class="col-md-4">
+            <label class="media checkbox text-truncate" title="{{villes[1].ville}}">
+              <input type="checkbox" name="neighborhood" value="{{villes[1].ville}}" class="pull-left">
+              {{villes[1].ville}}
+            </label>
+          </div>
+
+          <div class="col-md-4">
+            <label class="media checkbox text-truncate" title="{{villes[2].ville}}">
+              <input type="checkbox" name="neighborhood" value="{{villes[2].ville}}" class="pull-left">
+              {{villes[2].ville}}
+            </label>
+          </div>
+        
+          </div>
+        <div class="filters-more collapse">
+          <hr>
+          <div class="row row-condensed filters-columns">
+
+          {%for ville in villes %}
+
+            <div class="col-md-4">
+              <label class="media checkbox text-truncate" title="{{ville.ville}}">
+                <input type="checkbox" name="neighborhood" value="{{ville.ville}}" class="pull-left">
+                {{ville.ville}}
+              </label>
+            </div>
+
+          {%endfor%}
+          </div>
+          </div>
+          </div>
+   

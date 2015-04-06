@@ -1,0 +1,44 @@
+sprint2\RealEstate\AdminBundle\Entity\Administrateur:
+    type: entity
+    table: administrateur
+    id:
+        id:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        nom:
+            type: string
+            nullable: false
+            length: 50
+            fixed: false
+            comment: ''
+        prenom:
+            type: string
+            nullable: false
+            length: 50
+            fixed: false
+            comment: ''
+        motDePasse:
+            type: string
+            nullable: false
+            length: 50
+            fixed: false
+            comment: ''
+            column: mot_de_passe
+        mail:
+            type: string
+            nullable: false
+            length: 50
+            fixed: false
+            comment: ''
+        privilege:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+    lifecycleCallbacks: {  }

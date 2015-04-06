@@ -1,0 +1,39 @@
+
+
+{%block filterQuartier%}
+ <div class="col-3 text-right col-middle">
+            <div class="h4 text-light">
+                  Gouvernorat
+            </div>
+  </div>
+
+<div class="col-lg-9 form-gouvern col-middle">
+        <div class="row row-condensed">
+          <div class="col-md-4 col-sm-12 row-space-1">
+            <div class="select select-block">
+              <select name="gouvernorats" class="gouvernoratSelect" required>
+              {%for gouvernorat in gouvernorats %}
+                <option value="{{gouvernorat.gouvernorat}}"> {{gouvernorat.gouvernorat}}</option>
+              {%endfor%} 
+              </select>
+            </div>
+          </div>
+        </div>
+</div>
+
+
+<script>
+
+  $(".form-gouvern").click(function(){
+     str =$( ".gouvernoratSelect" ).serialize() ;
+
+      $.get("{{path('offre_search_ville')}}?"+str,function( data ) {
+           $( ".villes" ).html( data );           
+      })
+
+  })
+
+</script>
+
+   
+{%endblock%}

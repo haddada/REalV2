@@ -1,0 +1,3 @@
+real_estate_authentification_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: RealEstateAuthentificationBundle:Default:index }

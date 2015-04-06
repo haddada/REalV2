@@ -1,0 +1,106 @@
+{% extends "realEstateBundle:Offre:index.html.twig" %}
+
+{%block header%}
+<div id="header" class="airbnb-header">
+
+  <div class="header--sm show-sm">
+  <a href="#" data-prevent-default="" class="link-reset burger--sm">
+    <i class="icon icon-reorder icon-rausch"></i>
+  </a>
+  <div class="title--sm text-center">
+      <button class="btn btn-block search-btn--sm search-modal-trigger">
+        <i class="icon icon-search icon-gray"></i>
+        <span class="search-placeholder--sm">
+          Où allez-vous ?
+        </span>
+      </button>
+  </div>
+  <div class="action--sm"></div>
+  <nav class="nav--sm"></nav>
+  <div class="search-modal-container"></div>
+</div>
+
+
+  <div class="regular-header clearfix hide-sm">
+  <a href="/" class="header-belo pull-left"></a>
+
+  <ul class="nav pull-left hide-sm list-unstyled search-form-container" id="search-form-header">
+  <li id="header-search" class="search-bar-wrapper pull-left medium-right-margin">
+    <form action="/s" id="search-form" class="search-form">
+      <div class="search-bar">
+        <i class="icon icon-search icon-gray h4"></i>
+        <input placeholder="Où allez-vous ?" autocomplete="off" name="location" class="location" type="text">
+        <input name="source" value="hdr" type="hidden">
+      </div>
+    </form>
+  </li>
+    <li class="browse-container pull-left hide-md">
+      <a class="link-reset header-browse-trigger" href="#" data-prevent-default="" id="header-browse-trigger">
+  Naviguer
+   <i class="icon icon-caret-down icon-light-gray h5"></i>
+</a>
+
+
+    </li>
+</ul>
+
+
+  <ul class="nav pull-right help-menu list-unstyled">
+  <li id="header-help-menu" class="help-menu-container pull-left large-right-margin hide-md" data-dropdown-sticky="true">
+    <a id="header-help-trigger" class="help-toggle link-reset header-help-trigger" href="/help">
+      Aide
+      <i class="icon icon-caret-down icon-light-gray h5"></i>
+    </a>
+    
+  </li>
+    <li class="list-your-space pull-left">
+      <a id="list-your-space" class="btn btn-special list-your-space-btn" href="/rooms/new">
+        Publiez votre annonce
+      </a>
+    </li>
+</ul>
+<div id="help-panel-modal">
+</div>
+
+
+  <ul class="nav pull-right logged-out list-unstyled medium-right-margin">
+  <li id="sign_up" class="pull-left medium-right-margin">
+    <a data-signup-modal="" data-header-view="true" href="/signup_login?redirect_params[action]=index&amp;redirect_params[controller]=search&amp;redirect_params[guests]=2&amp;redirect_params[location]=New+York%2C+NY&amp;redirect_params[ne_lat]=40.74806499382262&amp;redirect_params[ne_lng]=-73.86441276903406&amp;redirect_params[path_location]=New-York--NY&amp;redirect_params[price_min]=45&amp;redirect_params[search_by_map]=true&amp;redirect_params[ss_id]=56kqlda2&amp;redirect_params[sw_lat]=40.57834400473412&amp;redirect_params[sw_lng]=-74.06148002977625&amp;redirect_params[zoom]=12" class="link-reset" rel="nofollow">
+      Inscription
+    </a>
+  </li>
+  <li id="login" class="pull-left">
+    <a data-login-modal="" href="/login?redirect_params[action]=index&amp;redirect_params[controller]=search&amp;redirect_params[guests]=2&amp;redirect_params[location]=New+York%2C+NY&amp;redirect_params[ne_lat]=40.74806499382262&amp;redirect_params[ne_lng]=-73.86441276903406&amp;redirect_params[path_location]=New-York--NY&amp;redirect_params[price_min]=45&amp;redirect_params[search_by_map]=true&amp;redirect_params[ss_id]=56kqlda2&amp;redirect_params[sw_lat]=40.57834400473412&amp;redirect_params[sw_lng]=-74.06148002977625&amp;redirect_params[zoom]=12" class="link-reset" rel="nofollow">
+      Connexion
+    </a>
+  </li>
+</ul>
+
+
+  <ul class="nav pull-right logged-in list-unstyled medium-right-margin">
+  <li class="user-item pull-left medium-right-margin">
+    <a class="link-reset header-avatar-trigger" id="header-avatar-trigger" href="#">
+      <div class="media-photo media-round user-profile-image"></div>
+      <span class="value_name">
+        Utilisateur
+      </span>
+      <i class="icon icon-caret-down icon-light-gray h5"></i>
+    </a>
+    
+  </li>
+  <li id="inbox-item" class="inbox-item pull-left">
+    <a href="#" data-href="/inbox" rel="nofollow" class="no-crawl link-reset inbox-icon">
+      <i class="alert-count fade text-center">0</i>
+      <i class="icon icon-envelope icon-gray">
+        <span class="text-hide hide">
+          Boîte de réception
+        </span>
+      </i>
+    </a>
+  </li>
+</ul>
+
+</div>
+
+</div>
+{%endblock%}

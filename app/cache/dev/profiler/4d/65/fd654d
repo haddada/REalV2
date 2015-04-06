@@ -1,0 +1,2881 @@
+a:8:{s:5:"token";s:6:"fd654d";s:6:"parent";N;s:8:"children";a:1:{i:0;s:6:"dee133";}s:4:"data";a:14:{s:4:"form";C:64:"Symfony\Component\Form\Extension\DataCollector\FormDataCollector":7429:{a:3:{s:5:"forms";a:1:{s:4:"form";a:11:{s:2:"id";s:4:"form";s:4:"name";s:4:"form";s:9:"view_vars";a:29:{s:6:"action";s:16:"/offre/11/delete";s:4:"attr";s:2:"[]";s:14:"block_prefixes";s:23:"[0 => form, 1 => _form]";s:9:"cache_key";s:10:"_form_form";s:8:"compound";s:4:"true";s:4:"data";s:4:"null";s:8:"disabled";s:5:"false";s:6:"errors";s:48:"Object(Symfony\Component\Form\FormErrorIterator)";s:4:"form";s:39:"Object(Symfony\Component\Form\FormView)";s:9:"full_name";s:4:"form";s:2:"id";s:4:"form";s:5:"label";s:4:"null";s:10:"label_attr";s:2:"[]";s:12:"label_format";s:4:"null";s:10:"max_length";s:4:"null";s:6:"method";s:6:"DELETE";s:9:"multipart";s:5:"false";s:4:"name";s:4:"form";s:13:"original_type";s:4:"form";s:7:"pattern";s:4:"null";s:9:"read_only";s:5:"false";s:8:"required";s:4:"true";s:4:"size";s:4:"null";s:14:"static_control";s:5:"false";s:9:"submitted";s:5:"false";s:18:"translation_domain";s:8:"messages";s:19:"unique_block_prefix";s:5:"_form";s:5:"valid";s:4:"true";s:5:"value";s:4:"null";}s:4:"type";s:4:"form";s:10:"type_class";s:51:"Symfony\Component\Form\Extension\Core\Type\FormType";s:12:"synchronized";s:4:"true";s:14:"passed_options";a:0:{}s:16:"resolved_options";a:40:{s:6:"action";s:0:"";s:18:"allow_extra_fields";s:5:"false";s:4:"attr";s:2:"[]";s:15:"auto_initialize";s:4:"true";s:10:"block_name";s:4:"null";s:12:"by_reference";s:4:"true";s:18:"cascade_validation";s:5:"false";s:8:"compound";s:4:"true";s:11:"constraints";s:2:"[]";s:15:"csrf_field_name";s:6:"_token";s:12:"csrf_message";s:59:"The CSRF token is invalid. Please try to resubmit the form.";s:15:"csrf_protection";s:4:"true";s:13:"csrf_provider";s:78:"Object(Symfony\Component\Form\Extension\Csrf\CsrfProvider\CsrfProviderAdapter)";s:13:"csrf_token_id";s:4:"null";s:18:"csrf_token_manager";s:78:"Object(Symfony\Component\Form\Extension\Csrf\CsrfProvider\CsrfProviderAdapter)";s:10:"data_class";s:4:"null";s:8:"disabled";s:5:"false";s:10:"empty_data";s:15:"Object(Closure)";s:14:"error_bubbling";s:4:"true";s:13:"error_mapping";s:2:"[]";s:20:"extra_fields_message";s:42:"This form should not contain extra fields.";s:12:"inherit_data";s:5:"false";s:9:"intention";s:4:"null";s:15:"invalid_message";s:24:"This value is not valid.";s:26:"invalid_message_parameters";s:2:"[]";s:5:"label";s:4:"null";s:10:"label_attr";s:2:"[]";s:12:"label_format";s:4:"null";s:6:"mapped";s:4:"true";s:10:"max_length";s:4:"null";s:6:"method";s:4:"POST";s:7:"pattern";s:4:"null";s:21:"post_max_size_message";s:69:"The uploaded file was too large. Please try to upload a smaller file.";s:13:"property_path";s:4:"null";s:9:"read_only";s:5:"false";s:8:"required";s:4:"true";s:18:"translation_domain";s:4:"null";s:4:"trim";s:4:"true";s:17:"validation_groups";s:4:"null";s:7:"virtual";s:4:"null";}s:12:"default_data";a:1:{s:4:"norm";s:4:"null";}s:14:"submitted_data";a:0:{}s:8:"children";a:2:{s:6:"submit";a:11:{s:2:"id";s:11:"form_submit";s:4:"name";s:6:"submit";s:9:"view_vars";a:17:{s:7:"as_link";s:4:"null";s:4:"attr";s:2:"[]";s:14:"block_prefixes";s:45:"[0 => button, 1 => submit, 2 => _form_submit]";s:12:"button_class";s:4:"null";s:9:"cache_key";s:19:"_form_submit_submit";s:7:"clicked";s:5:"false";s:8:"disabled";s:5:"false";s:4:"form";s:39:"Object(Symfony\Component\Form\FormView)";s:9:"full_name";s:12:"form[submit]";s:2:"id";s:11:"form_submit";s:5:"label";s:6:"Delete";s:12:"label_format";s:4:"null";s:9:"multipart";s:5:"false";s:4:"name";s:6:"submit";s:18:"translation_domain";s:8:"messages";s:19:"unique_block_prefix";s:12:"_form_submit";s:5:"value";s:4:"null";}s:4:"type";s:6:"submit";s:10:"type_class";s:53:"Symfony\Component\Form\Extension\Core\Type\SubmitType";s:12:"synchronized";s:4:"true";s:14:"passed_options";a:1:{s:5:"label";s:6:"Delete";}s:16:"resolved_options";a:8:{s:4:"attr";s:2:"[]";s:15:"auto_initialize";s:5:"false";s:10:"block_name";s:4:"null";s:8:"disabled";s:5:"false";s:5:"label";s:6:"Delete";s:12:"label_format";s:4:"null";s:18:"translation_domain";s:4:"null";s:17:"validation_groups";s:4:"null";}s:12:"default_data";a:1:{s:4:"norm";s:4:"null";}s:14:"submitted_data";a:0:{}s:8:"children";a:0:{}}s:6:"_token";a:11:{s:2:"id";s:6:"_token";s:4:"name";s:6:"_token";s:9:"view_vars";a:29:{s:6:"action";s:0:"";s:4:"attr";s:2:"[]";s:14:"block_prefixes";s:43:"[0 => form, 1 => hidden, 2 => _form__token]";s:9:"cache_key";s:19:"_form__token_hidden";s:8:"compound";s:5:"false";s:4:"data";s:43:"LYOrTPTjNuAx9-VoYCy1ODnX-tvG4YITvxCwyNPm7fM";s:8:"disabled";s:5:"false";s:6:"errors";s:48:"Object(Symfony\Component\Form\FormErrorIterator)";s:4:"form";s:39:"Object(Symfony\Component\Form\FormView)";s:9:"full_name";s:12:"form[_token]";s:2:"id";s:11:"form__token";s:5:"label";s:4:"null";s:10:"label_attr";s:2:"[]";s:12:"label_format";s:4:"null";s:10:"max_length";s:4:"null";s:6:"method";s:4:"POST";s:9:"multipart";s:5:"false";s:4:"name";s:6:"_token";s:13:"original_type";s:6:"hidden";s:7:"pattern";s:4:"null";s:9:"read_only";s:5:"false";s:8:"required";s:5:"false";s:4:"size";s:4:"null";s:14:"static_control";s:5:"false";s:9:"submitted";s:5:"false";s:18:"translation_domain";s:8:"messages";s:19:"unique_block_prefix";s:12:"_form__token";s:5:"valid";s:4:"true";s:5:"value";s:43:"LYOrTPTjNuAx9-VoYCy1ODnX-tvG4YITvxCwyNPm7fM";}s:4:"type";s:6:"hidden";s:10:"type_class";s:53:"Symfony\Component\Form\Extension\Core\Type\HiddenType";s:12:"synchronized";s:4:"true";s:14:"passed_options";a:2:{s:4:"data";s:43:"LYOrTPTjNuAx9-VoYCy1ODnX-tvG4YITvxCwyNPm7fM";s:6:"mapped";s:5:"false";}s:16:"resolved_options";a:41:{s:6:"action";s:0:"";s:18:"allow_extra_fields";s:5:"false";s:4:"attr";s:2:"[]";s:15:"auto_initialize";s:4:"true";s:10:"block_name";s:4:"null";s:12:"by_reference";s:4:"true";s:18:"cascade_validation";s:5:"false";s:8:"compound";s:5:"false";s:11:"constraints";s:2:"[]";s:15:"csrf_field_name";s:6:"_token";s:12:"csrf_message";s:59:"The CSRF token is invalid. Please try to resubmit the form.";s:15:"csrf_protection";s:4:"true";s:13:"csrf_provider";s:78:"Object(Symfony\Component\Form\Extension\Csrf\CsrfProvider\CsrfProviderAdapter)";s:13:"csrf_token_id";s:4:"null";s:18:"csrf_token_manager";s:78:"Object(Symfony\Component\Form\Extension\Csrf\CsrfProvider\CsrfProviderAdapter)";s:4:"data";s:43:"LYOrTPTjNuAx9-VoYCy1ODnX-tvG4YITvxCwyNPm7fM";s:10:"data_class";s:4:"null";s:8:"disabled";s:5:"false";s:10:"empty_data";s:15:"Object(Closure)";s:14:"error_bubbling";s:4:"true";s:13:"error_mapping";s:2:"[]";s:20:"extra_fields_message";s:42:"This form should not contain extra fields.";s:12:"inherit_data";s:5:"false";s:9:"intention";s:4:"null";s:15:"invalid_message";s:24:"This value is not valid.";s:26:"invalid_message_parameters";s:2:"[]";s:5:"label";s:4:"null";s:10:"label_attr";s:2:"[]";s:12:"label_format";s:4:"null";s:6:"mapped";s:5:"false";s:10:"max_length";s:4:"null";s:6:"method";s:4:"POST";s:7:"pattern";s:4:"null";s:21:"post_max_size_message";s:69:"The uploaded file was too large. Please try to upload a smaller file.";s:13:"property_path";s:4:"null";s:9:"read_only";s:5:"false";s:8:"required";s:5:"false";s:18:"translation_domain";s:4:"null";s:4:"trim";s:4:"true";s:17:"validation_groups";s:4:"null";s:7:"virtual";s:4:"null";}s:12:"default_data";a:1:{s:4:"norm";s:43:"LYOrTPTjNuAx9-VoYCy1ODnX-tvG4YITvxCwyNPm7fM";}s:14:"submitted_data";a:0:{}s:8:"children";a:0:{}}}}}s:13:"forms_by_hash";a:3:{s:32:"000000002f5918e70000000075bd7e4d";R:10;s:32:"000000002f5918e00000000075bd7e4d";R:92;s:32:"000000002f5918f60000000075bd7e4d";R:131;}s:9:"nb_errors";i:0;}}s:6:"config";C:62:"Symfony\Component\HttpKernel\DataCollector\ConfigDataCollector":2385:{a:16:{s:8:"app_name";N;s:11:"app_version";N;s:5:"token";s:6:"fd654d";s:15:"symfony_version";s:5:"2.6.4";s:4:"name";s:3:"app";s:3:"env";s:3:"dev";s:5:"debug";b:1;s:11:"php_version";s:16:"5.5.9-1ubuntu4.6";s:14:"xdebug_enabled";b:0;s:14:"eaccel_enabled";b:0;s:11:"apc_enabled";b:0;s:14:"xcache_enabled";b:0;s:16:"wincache_enabled";b:0;s:20:"zend_opcache_enabled";b:1;s:7:"bundles";a:19:{s:15:"FrameworkBundle";s:82:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle";s:14:"SecurityBundle";s:81:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle";s:10:"TwigBundle";s:77:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle";s:13:"MonologBundle";s:54:"/home/haddada/realEstate/vendor/symfony/monolog-bundle";s:17:"SwiftmailerBundle";s:58:"/home/haddada/realEstate/vendor/symfony/swiftmailer-bundle";s:13:"AsseticBundle";s:54:"/home/haddada/realEstate/vendor/symfony/assetic-bundle";s:14:"DoctrineBundle";s:56:"/home/haddada/realEstate/vendor/doctrine/doctrine-bundle";s:26:"SensioFrameworkExtraBundle";s:96:"/home/haddada/realEstate/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle";s:9:"AppBundle";s:38:"/home/haddada/realEstate/src/AppBundle";s:16:"realEstateBundle";s:53:"/home/haddada/realEstate/src/sprint2/realEstateBundle";s:27:"BraincraftedBootstrapBundle";s:97:"/home/haddada/realEstate/vendor/braincrafted/bootstrap-bundle/Braincrafted/Bundle/BootstrapBundle";s:28:"sprint2RealEstateAdminBundle";s:59:"/home/haddada/realEstate/src/sprint2/RealEstate/AdminBundle";s:32:"RealEstateAuthentificationBundle";s:62:"/home/haddada/realEstate/src/RealEstate/AuthentificationBundle";s:15:"DCSRatingBundle";s:76:"/home/haddada/realEstate/vendor/damianociarla/rating-bundle/DCS/RatingBundle";s:11:"DebugBundle";s:78:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle";s:14:"AcmeDemoBundle";s:44:"/home/haddada/realEstate/src/Acme/DemoBundle";s:17:"WebProfilerBundle";s:84:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle";s:24:"SensioDistributionBundle";s:91:"/home/haddada/realEstate/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle";s:21:"SensioGeneratorBundle";s:85:"/home/haddada/realEstate/vendor/sensio/generator-bundle/Sensio/Bundle/GeneratorBundle";}s:9:"sapi_name";s:10:"cli-server";}}s:7:"request";C:63:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector":3995:{a:18:{s:6:"format";s:4:"html";s:7:"content";s:0:"";s:12:"content_type";s:24:"text/html; charset=UTF-8";s:11:"status_text";s:21:"Internal Server Error";s:11:"status_code";i:500;s:13:"request_query";a:0:{}s:15:"request_request";a:0:{}s:15:"request_headers";a:9:{s:4:"host";a:1:{i:0;s:14:"localhost:8000";}s:10:"connection";a:1:{i:0;s:10:"keep-alive";}s:13:"cache-control";a:1:{i:0;s:9:"max-age=0";}s:6:"accept";a:1:{i:0;s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";}s:10:"user-agent";a:1:{i:0;s:133:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36";}s:15:"accept-encoding";a:1:{i:0;s:19:"gzip, deflate, sdch";}s:15:"accept-language";a:1:{i:0;s:44:"fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2";}s:6:"cookie";a:1:{i:0;s:244:"ajs_user_id=null; ajs_group_id=null; ajs_anonymous_id=%22d187499d-1af1-4249-ad5a-0d7ae719d454%22; EPISODES=s=1428272319984&r=http%3A%2F%2Flocalhost%3A8000%2Foffre%2F; PHPSESSID=m6fa3ffd19dms1ulf2spk06593; _gat=1; _ga=GA1.1.1002142290.1426341356";}s:14:"x-php-ob-level";a:1:{i:0;i:1;}}s:14:"request_server";a:22:{s:13:"DOCUMENT_ROOT";s:28:"/home/haddada/realEstate/web";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:11:"REMOTE_PORT";s:5:"47909";s:15:"SERVER_SOFTWARE";s:39:"PHP 5.5.9-1ubuntu4.6 Development Server";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:11:"SERVER_NAME";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:4:"8000";s:11:"REQUEST_URI";s:14:"/offre/11/show";s:14:"REQUEST_METHOD";s:3:"GET";s:11:"SCRIPT_NAME";s:14:"/offre/11/show";s:15:"SCRIPT_FILENAME";s:40:"/home/haddada/realEstate/web/app_dev.php";s:8:"PHP_SELF";s:14:"/offre/11/show";s:9:"HTTP_HOST";s:14:"localhost:8000";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:15:"HTTP_USER_AGENT";s:133:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/41.0.2272.76 Chrome/41.0.2272.76 Safari/537.36";s:20:"HTTP_ACCEPT_ENCODING";s:19:"gzip, deflate, sdch";s:20:"HTTP_ACCEPT_LANGUAGE";s:44:"fr-FR,fr;q=0.8,en-US;q=0.6,en;q=0.4,ar;q=0.2";s:11:"HTTP_COOKIE";s:244:"ajs_user_id=null; ajs_group_id=null; ajs_anonymous_id=%22d187499d-1af1-4249-ad5a-0d7ae719d454%22; EPISODES=s=1428272319984&r=http%3A%2F%2Flocalhost%3A8000%2Foffre%2F; PHPSESSID=m6fa3ffd19dms1ulf2spk06593; _gat=1; _ga=GA1.1.1002142290.1426341356";s:18:"REQUEST_TIME_FLOAT";d:1428276247.9591451;s:12:"REQUEST_TIME";i:1428276247;}s:15:"request_cookies";a:7:{s:11:"ajs_user_id";s:4:"null";s:12:"ajs_group_id";s:4:"null";s:16:"ajs_anonymous_id";s:38:""d187499d-1af1-4249-ad5a-0d7ae719d454"";s:8:"EPISODES";s:46:"s=1428272319984&r=http://localhost:8000/offre/";s:9:"PHPSESSID";s:26:"m6fa3ffd19dms1ulf2spk06593";s:4:"_gat";s:1:"1";s:3:"_ga";s:27:"GA1.1.1002142290.1426341356";}s:18:"request_attributes";a:4:{s:11:"_controller";s:63:"sprint2\realEstateBundle\Controller\OffreController::showAction";s:2:"id";s:2:"11";s:6:"_route";s:10:"offre_show";s:13:"_route_params";a:1:{s:2:"id";s:2:"11";}}s:16:"response_headers";a:5:{s:13:"cache-control";a:1:{i:0;s:8:"no-cache";}s:4:"date";a:1:{i:0;s:29:"Sun, 05 Apr 2015 23:24:08 GMT";}s:13:"x-debug-token";a:1:{i:0;s:6:"fd654d";}s:18:"x-debug-token-link";a:1:{i:0;s:17:"/_profiler/dee133";}s:12:"content-type";a:1:{i:0;s:24:"text/html; charset=UTF-8";}}s:16:"session_metadata";a:3:{s:7:"Created";s:29:"Mon, 06 Apr 15 01:15:05 +0200";s:9:"Last used";s:29:"Mon, 06 Apr 15 01:23:26 +0200";s:8:"Lifetime";s:1:"0";}s:18:"session_attributes";a:1:{s:10:"_csrf/form";s:43:"LYOrTPTjNuAx9-VoYCy1ODnX-tvG4YITvxCwyNPm7fM";}s:7:"flashes";a:0:{}s:9:"path_info";s:14:"/offre/11/show";s:10:"controller";a:4:{s:5:"class";s:51:"sprint2\realEstateBundle\Controller\OffreController";s:6:"method";s:10:"showAction";s:4:"file";s:84:"/home/haddada/realEstate/src/sprint2/realEstateBundle/Controller/OffreController.php";s:4:"line";i:156;}s:6:"locale";s:2:"en";}}s:4:"ajax";C:62:"Symfony\Bundle\FrameworkBundle\DataCollector\AjaxDataCollector":6:{a:0:{}}s:9:"exception";C:65:"Symfony\Component\HttpKernel\DataCollector\ExceptionDataCollector":106517:{a:1:{s:9:"exception";O:50:"Symfony\Component\Debug\Exception\FlattenException":10:{s:59:" Symfony\Component\Debug\Exception\FlattenException message";s:69:"Unexpected "}" in "realEstateBundle:Offre:show.html.twig" at line 478";s:56:" Symfony\Component\Debug\Exception\FlattenException code";i:0;s:60:" Symfony\Component\Debug\Exception\FlattenException previous";N;s:57:" Symfony\Component\Debug\Exception\FlattenException trace";a:20:{i:0;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:0:"";s:5:"class";s:0:"";s:4:"type";s:0:"";s:8:"function";s:0:"";s:4:"file";s:60:"/home/haddada/realEstate/vendor/twig/twig/lib/Twig/Lexer.php";s:4:"line";i:259;s:4:"args";a:0:{}}i:1;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:10:"Twig_Lexer";s:5:"class";s:10:"Twig_Lexer";s:4:"type";s:2:"->";s:8:"function";s:13:"lexExpression";s:4:"file";s:60:"/home/haddada/realEstate/vendor/twig/twig/lib/Twig/Lexer.php";s:4:"line";i:205;s:4:"args";a:0:{}}i:2;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:10:"Twig_Lexer";s:5:"class";s:10:"Twig_Lexer";s:4:"type";s:2:"->";s:8:"function";s:8:"lexBlock";s:4:"file";s:60:"/home/haddada/realEstate/vendor/twig/twig/lib/Twig/Lexer.php";s:4:"line";i:111;s:4:"args";a:0:{}}i:3;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:10:"Twig_Lexer";s:5:"class";s:10:"Twig_Lexer";s:4:"type";s:2:"->";s:8:"function";s:8:"tokenize";s:4:"file";s:50:"/home/haddada/realEstate/app/cache/dev/classes.php";s:4:"line";i:3240;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:32219:"{% extends '::base.html.twig' %}
+
+{% block body %}
+
+<!DOCTYPE html>
+
+<!--[if lt IE 8]>
+
+<html lang="fr"
+      
+      xmlns:fb="http://ogp.me/ns/fb#"
+      class="ie">
+
+<![endif]-->
+
+<!--[if IE 8]>
+
+
+<html lang="fr"
+      
+      xmlns:fb="http://ogp.me/ns/fb#"
+      class="ie ie8">
+
+<![endif]-->
+
+<!--[if IE 9]>
+
+  <html lang="fr"
+      
+      xmlns:fb="http://ogp.me/ns/fb#"
+      class="ie ie9">
+
+<![endif]-->
+
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="fr"
+      
+      xmlns:fb="http://ogp.me/ns/fb#">
+
+<!--<![endif]-->
+
+  <head>
+    <link rel="dns-prefetch" href="//maps.googleapis.com">
+    <link rel="dns-prefetch" href="//maps.gstatic.com">
+    <link rel="dns-prefetch" href="//mts0.googleapis.com">
+    <link rel="dns-prefetch" href="//mts1.googleapis.com">
+
+    <!--[if IE]><![endif]-->
+    <meta charset="utf-8">
+
+    <!--[if IE 8]>
+      <link href="https://a0.muscache.com/airbnb/static/packages/common_o2.1_ie8-225f1d45c73231751aaf97a633e0c23f.css" media="all" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if !(IE 8)]><!-->
+      <link href="https://a0.muscache.com/airbnb/static/packages/common_o2.1-2d55fa097938f1a001bdc9349da57511.css" media="all" rel="stylesheet" type="text/css" />
+    <!--<![endif]-->
+
+      <!--[if lt IE 9]>
+        <link href="https://a0.muscache.com/airbnb/static/compatibility/airglyphs-ie8-4726277b9b1996acd7c89b89f9bbcdd7.css" media="all" rel="stylesheet" type="text/css" />
+      <![endif]-->
+
+    
+  <!--[if IE]>
+  <link href="https://a0.muscache.com/airbnb/static/p3/p3_ie-51d81e0aeb02fc953c4ce5eb275fb1a3.css" media="screen" rel="stylesheet" type="text/css" />
+  <![endif]-->
+<link href="https://a0.muscache.com/airbnb/static/packages/p3-cf732b95af12ba825f6dbaea74afdf2a.css" media="screen" rel="stylesheet" type="text/css" />
+    
+
+    <meta id="csrf-param-meta-tag" name="csrf-param" content="authenticity_token"/>
+    <meta id="csrf-token-meta-tag" name="csrf-token" content=""/>
+
+    <script>
+
+      var sherlock_firstbyte = Number(new Date());
+</script>
+
+    <title>In the Foothills of the Berkshires à Kent</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+      <meta name="description" content="Chambre privée pour 80&amp;euro;. Sleep, Create, Rehearse!!  We are located on nine wooded acres at the foothills of the Berskhire Mountains and surrounded by state parks (Kent Fall...">
+
+
+
+
+     
+
+    <link rel="image_src" href={{entity.urlimage}}>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Airbnb">
+
+    <!--[if lte IE 9]>
+      <script src="https://a0.muscache.com/airbnb/static/packages/libs_ie_support-b79daf6f8ced9b9ee1d841fbcc88d2a7.js" type="text/javascript"></script>
+      <link href="https://a0.muscache.com/airbnb/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+      <link href="/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+      <script src="/respond.proxy.js?cb=1"></script>
+    <![endif]-->
+
+
+    <link rel="stylesheet" href="{{ asset('bundles/dcsrating/css/rating.css') }}" />
+
+  </head>
+  <body class="no_wiggle_webkit">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-46MK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+
+    <meta content="{&quot;flags&quot;:{&quot;name&quot;:&quot;flags&quot;,&quot;value&quot;:{&quot;can_see_community&quot;:2,&quot;og_publish&quot;:16,&quot;has_wishlisted&quot;:32,&quot;update_cached&quot;:64,&quot;revert_to_admin&quot;:128,&quot;facebook_connected&quot;:256,&quot;erf_override&quot;:512,&quot;has_search&quot;:1024,&quot;search_help_dropdown&quot;:2048,&quot;has_dates&quot;:4096,&quot;can_see_help_panel&quot;:8192,&quot;can_send_profile_messages&quot;:32768,&quot;just_logged_in&quot;:65536,&quot;has_been_host&quot;:131072,&quot;should_drop_pellet&quot;:262144,&quot;is_active_host&quot;:1048576,&quot;can_see_meetups&quot;:134217728,&quot;should_drop_sift_pellet&quot;:268435456,&quot;can_see_groups&quot;:536870912,&quot;has_verified_phone&quot;:1073741824,&quot;has_profile_pic&quot;:2147483648}},&quot;roles&quot;:{&quot;name&quot;:&quot;roles&quot;,&quot;value&quot;:{&quot;is_aircrew&quot;:8,&quot;is_content_manager&quot;:1048576,&quot;is_stats_admin&quot;:16777216}},&quot;user_attributes&quot;:{&quot;name&quot;:&quot;_user_attributes&quot;}}" id="_bootstrap-user-attr-cookies" />
+<meta content="{&quot;hca_contact_me&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:100,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;control&quot;,&quot;buckets&quot;:100},{&quot;name&quot;:&quot;hide_contact_me&quot;,&quot;buckets&quot;:0}]},&quot;p3_photo_grid&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:3,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;control&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;show_grid_above&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;show_grid_below&quot;,&quot;buckets&quot;:null}]},&quot;p3_contact_host_signup_vs_login&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:3,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;login_modal&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;signup_modal&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;signup_or_login_modal&quot;,&quot;buckets&quot;:null}]},&quot;inspectlet_on_guest&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:2,&quot;percent_exposed&quot;:1,&quot;treatments&quot;:[{&quot;name&quot;:&quot;control&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;inspectlet_active&quot;,&quot;buckets&quot;:null}]}}" id="_bootstrap-erf" />
+
+
+    <div class="smart-banner">
+  <a href="#" class="icon icon-remove icon-size-1 pull-left link-reset banner-close"></a>
+  <a href="#" data-href="http://r.airbnb.com/l.c.hsjS" class="pull-left app-icon install-link action-link"></a>
+  
+  </div>
+</div>
+
+
+    <div id="header" class="airbnb-header">
+
+  <div class="header--sm show-sm">
+  <a href="#" data-prevent-default class="link-reset burger--sm">
+    <i class="icon icon-reorder icon-rausch"></i>
+  </a>
+  <div class="title--sm text-center">
+      <button class="btn btn-block search-btn--sm search-modal-trigger">
+        <i class="icon icon-search icon-gray"></i>
+        <span class="search-placeholder--sm">
+          Où allez-vous ?
+        </span>
+      </button>
+  </div>
+  <div class="action--sm"></div>
+  <nav class="nav--sm"></nav>
+  <div class="search-modal-container"></div>
+</div>
+
+
+  <div class="regular-header clearfix hide-sm">
+  <a href="/" class="header-belo pull-left"></a>
+
+  <ul class="nav pull-left hide-sm list-unstyled search-form-container"
+    id="search-form-header">
+  <li id="header-search" class="search-bar-wrapper pull-left medium-right-margin">
+    <form action="/s" id="search-form" class="search-form">
+      <div class="search-bar">
+        <i class="icon icon-search icon-gray h4"></i>
+        <input type="text"
+               placeholder="Où allez-vous ?"
+               autocomplete="off"
+               name="location"
+               data-date-placeholder="jj/mm/aaaa"
+               class="location" />
+        <input type="hidden" name="source" value="hdr" />
+      </div>
+    </form>
+  </li>
+    <li class="browse-container pull-left hide-md">
+      <a class="link-reset header-browse-trigger"
+   href="#"
+   data-prevent-default
+   id="header-browse-trigger">
+  Naviguer
+   <i class="icon icon-caret-down icon-light-gray h5"></i>
+</a>
+<ul role="tooltip"
+    class="tooltip tooltip-top-left dropdown-menu list-unstyled"
+    data-trigger="#header-browse-trigger"
+    aria-hidden="true"
+    data-sticky="true">
+  <li>
+    <a href="/wishlists/popular"
+       class="link-reset menu-item header-browse-popular">
+      Wish Lists populaires
+    </a>
+  </li>
+  <li>
+    <a href="/wishlists/friends"
+       class="link-reset menu-item header-browse-friends">
+      Amis
+    </a>
+  </li>
+  <li>
+    <a href="/locations"
+       class="link-reset menu-item header-browse-neighborhoods">
+      Guide des Quartiers
+    </a>
+  </li>
+  <li class="groups hide">
+    <a href="#"
+       data-href="/groups"
+       rel="nofollow"
+       class="no-crawl link-reset menu-item header-browse-groups">
+      Groupes
+    </a>
+  </li>
+</ul>
+
+    </li>
+</ul>
+
+
+  <ul class="nav pull-right help-menu list-unstyled">
+  <li id='header-help-menu' class="help-menu-container pull-left large-right-margin hide-md" data-dropdown-sticky="true">
+    <a id="header-help-trigger"
+       class="help-toggle link-reset header-help-trigger"
+       href="/help">
+      Aide
+      <i class="icon icon-caret-down icon-light-gray h5"></i>
+    </a>
+    <div role="tooltip"
+         class="tooltip tooltip-top-right dropdown-menu help-dropdown"
+         aria-hidden="true"
+         data-trigger="#header-help-trigger"
+         data-sticky="true">
+      <ul class="list-layout">
+        <li class="search-bar--help hide">
+          <form action="/help/search" class="search-form--help menu-item">
+            <div class="input-addon">
+              <input type="text"
+                     placeholder="Rechercher dans le Centre d'aide"
+                     autocomplete="off"
+                     name="q"
+                     class="input-stem" />
+              <input type="hidden" name="search_from" value="hdr" />
+              <i class="btn btn-primary icon icon-search input-suffix form-submit--help"></i>
+            </div>
+          </form>
+        </li>
+        <li class="visit-helpcenter-cta hide">
+          <a href="/help" class="help-center-link menu-item">
+            Visitez le Centre d'aide &#187;
+          </a>
+        </li>
+        <li class="loading"></li>
+        <li class="all_faqs hide">
+          <a href="/help" class="link-reset menu-item">
+            Voir toutes les FAQ
+          </a>
+        </li>
+      </ul>
+    </div>
+  </li>
+    <li class="list-your-space pull-left">
+      <a id="list-your-space" class="btn btn-special list-your-space-btn" href="/rooms/new">
+        Publiez votre annonce
+      </a>
+    </li>
+</ul>
+<div id="help-panel-modal">
+</div>
+
+
+  <ul class="nav pull-right logged-out list-unstyled medium-right-margin">
+  <li id="sign_up" class="pull-left medium-right-margin">
+    <a data-signup-modal
+       data-header-view="true"
+       href="/signup_login?redirect_params[action]=show&amp;redirect_params[controller]=rooms&amp;redirect_params[guests]=2&amp;redirect_params[id]=439714&amp;redirect_params[s]=VziP"
+       class="link-reset"
+       rel="nofollow">
+      Inscription
+    </a>
+  </li>
+  <li id="login" class="pull-left">
+    <a data-login-modal
+       href="/login?redirect_params[action]=show&amp;redirect_params[controller]=rooms&amp;redirect_params[guests]=2&amp;redirect_params[id]=439714&amp;redirect_params[s]=VziP"
+       class="link-reset"
+       rel="nofollow">
+      Connexion
+    </a>
+  </li>
+</ul>
+
+
+  <ul class="nav pull-right logged-in list-unstyled medium-right-margin">
+  <li class="user-item pull-left medium-right-margin">
+    <a class="link-reset header-avatar-trigger"
+       id="header-avatar-trigger"
+       href="#">
+      <div class="media-photo media-round user-profile-image"></div>
+      <span class="value_name">
+        Utilisateur
+      </span>
+      <i class="icon icon-caret-down icon-light-gray h5"></i>
+    </a>
+    <ul role="tooltip"
+        class="tooltip tooltip-top-right dropdown-menu list-unstyled header-dropdown"
+        data-trigger="#header-avatar-trigger"
+        aria-hidden="true"
+        data-sticky="true">
+      <li>
+        <a href="#"
+           data-href="/home/dashboard"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-dashboard">
+          Tableau de bord
+        </a>
+      </li>
+      <li class="listings">
+        <a href="#"
+           data-href="/rooms"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-listing">
+          <span class="singular" style="display: none;">
+            Votre annonce
+          </span>
+          <span class="plural">
+            Mes annonces
+          </span>
+        </a>
+      </li>
+      <li class="reservations" style="display: none;">
+        <a href="#"
+           data-href="/my_listings"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-reservation">
+           Mes réservations
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/trips/upcoming"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-trips">
+          Mes voyages
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/wishlists/my"
+           id="wishlists"
+           class="no-crawl link-reset menu-item item-wishlists">
+          Wish Lists
+        </a>
+      </li>
+      <li class="groups">
+        <a href="#"
+           data-href="/groups"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-groups">
+          Groupes
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/invite?r=3"
+           class="no-crawl link-reset menu-item item-invite-friends">
+          Inviter des amis
+          <span class="label label-pink label-new">
+            Nouveau
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/users/edit"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-user-edit">
+          Modifier le profil
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/account"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-account">
+          Compte
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/logout"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item header-logout">
+          Déconnexion
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li id="inbox-item" class="inbox-item pull-left">
+    <a href="#"
+       data-href="/inbox"
+       rel="nofollow"
+       class="no-crawl link-reset inbox-icon">
+      <i class="alert-count fade text-center">0</i>
+      <i class="icon icon-envelope icon-gray">
+        <span class="text-hide hide">
+          Boîte de réception
+        </span>
+      </i>
+    </a>
+  </li>
+</ul>
+
+</div>
+
+</div>
+
+
+    <script src="https://a0.muscache.com/airbnb/static/packages/header_cookie-22aa60acabc7240964ecbee457825bba.js" type="text/javascript"></script>
+
+
+      <div class="flash-container"></div>
+
+    
+
+
+
+<div id="og_pro_photo_prompt" class="container"></div>
+
+<div id="room" itemscope itemtype="http://schema.org/Product">
+
+  <meta itemprop="image" content="https://a1.muscache.com/pictures/19184475/large.jpg">
+
+  <div id="photos" class="with-photos" style="height:80px">
+    
+  <div id="pricing" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <div id="price_amount" itemprop="price" class="pull-left h3 text-special">
+      {{entity.payement}}&euro;
+    </div>
+
+    <div id="payment-period-container" class="pull-right">
+      <div id="per_night" class="">
+     
+      </div>
+      <div id="per_month" class="hide">
+        Par mois
+        <i id="price-info-tooltip" class="icon icon-question hide" data-behavior="tooltip"></i>
+      </div>
+    </div>
+    <meta content="EUR" itemprop='priceCurrency'>
+  </div>
+    </div>
+
+  <div id="summary" class="panel room-section">
+    <div class="page-container-responsive">
+      <div class="row">
+        <div class="col-lg-8">
+          
+<div class="row-space-4 row-space-top-4">
+  <div class="row">
+
+    <div class="col-md-3 text-center">
+      <a href="#host-profile" class="media-photo media-round"><img alt="Steve &amp; Alison" class="host-profile-image" height="90" nopin="nopin" src="https://a0.muscache.com/ic/users/1970345/profile_pic/1334944224/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=225:*&amp;output-format=jpg&amp;output-quality=70" title="Steve &amp; Alison" width="90" /></a>
+    </div>
+
+    <div class="col-md-9">
+
+      <h1 itemprop="name"
+          class="overflow h3 row-space-1 text-center-sm"
+          id="listing_name">
+        à {{entity.Adresse.ville}}
+      </h1>
+
+      <span class="hide" itemprop='breadcrumb'>
+          <span itemscope itemtype='http://data-vocabulary.org/Breadcrumb'>
+            <a href="/s/%C3%89tats~Unis" itemprop="url"><span itemprop='title'>États-Unis</span>,</a>
+          </span>
+          <span itemscope itemtype='http://data-vocabulary.org/Breadcrumb'>
+            <a href="/s/Connecticut--%C3%89tats~Unis" itemprop="url"><span itemprop='title'>Connecticut</span>,</a>
+          </span>
+          <span itemscope itemtype='http://data-vocabulary.org/Breadcrumb'>
+            <a href="/s/Kent--Connecticut" itemprop="url"><span itemprop='title'>Kent</span></a>
+          </span>
+      </span>
+
+      <div id="display-address"
+           class="row-space-2 text-muted hide-sm"
+           itemprop='aggregateRating' itemscope itemtype="http://schema.org/AggregateRating"
+           data-location="Kent, CT, États-Unis">
+
+        <p  class="link-reset">{{entity.Adresse.ville}}, {{entity.Adresse.gouvernorat}}, Tunis</p>
+
+          &nbsp;
+          <a href="#reviews" class="link-reset">      <div class="star-rating">
+        <div class="foreground">
+                  {%include 'realEstateBundle:Offre:vote.html.twig'}
+
+        
+
+        </div>
+        <div class="background">
+          
+        </div>
+      </div>
+(<span itemprop="reviewCount">{{entity.NBNote}}</span>)</a>
+      </div>
+
+      
+
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-3 text-muted text-center hide-sm">
+      <a href="#host-profile" class="link-reset text-wrap">Steve &amp; Alison</a>
+    </div>
+
+   
+
+  </div>
+</div>
+
+        </div>
+        
+        <div class="col-lg-4">
+          
+<form accept-charset="UTF-8" action="https://www.airbnb.fr/payments/book?hosting_id=439714" class="info new-o2-form-inline" id="book_it_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="V4$.airbnb.fr$QN0wtDxmjvE$ABJDUnGhHWqzX8KbfvNkhPC_bVNa0Eo40R-UJrX3Jms=" /></div>
+
+  <div id="book_it">
+   
+            
+<div id="pf-pic-prompt-container" class="hide row-space-top-2">
+
+  <div class="signup-or-separator">
+    <h6 class="signup-or-separator--text">ou</h6>
+    <hr>
+  </div>
+
+  <div class="pf-pic-prompt text-center">
+    <a href='#' class='profile-pic-upsell-launcher'>Ajoutez une photo</a> pour faire une réservation instantanée de ce logement.
+
+    <i class="icon icon-question" data-behavior="tooltip" data-position="bottom"
+       title="La réservation instantanée vous permet de réserver un logement aussitôt, sans avoir à attendre la confirmation de l'hôte."></i>
+  </div>
+</div>
+
+          </div>
+
+          <div id="book_it_disabled" class="text-center hide">
+            <p id="book_it_disabled_message" class="icon-rausch">
+              Ce logement n'est pas disponible.
+            </p>
+            <a href="" class="btn btn-large btn-block" id="view_other_listings_button">
+              Voir d'autres annonces
+            </a>
+          </div>
+        </div>
+
+        <div id="book-it-urgency-commitment" data-host-name="Steve &amp; Alison">
+          <div data-hook="visitor-count-simple"
+               class="row row-space-top-3 hide">
+            <div class="col-10 col-center">
+              <div data-hook="visitor-count-simple-content"
+                   class="text-center text-muted">
+              </div>
+            </div>
+          </div>
+          <div data-hook="urgency-tooltip"
+               class="tooltip tooltip-layout tooltip-top-middle tooltip-no-border tooltip-light-beach row-space-top-4 hide">
+            <div class="panel-body">
+              <div class="media">
+                <i class="icon icon-hourglass-color pull-left"></i>
+                <div class="media-body" data-hook="urgency-tooltip-content">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        </div>
+
+        <div class="other-actions hide-sm text-center">
+          <div class="social-share-widget row-space-top-3">
+  <span class="share-title">
+    Partagez :
+  </span>
+  <span class="share-triggers">
+
+      <a class="share-btn"
+         data-email-share-link="/rooms/439714/email_listing"
+         data-network="email"
+         rel="nofollow"
+         title="E-mail"
+         href="#">
+        <i class="icon icon-envelope icon-gray social-icon-size"></i>
+      </a>
+
+
+
+
+      <a class="share-btn"
+         data-network="facebook"
+         rel="nofollow"
+         title="Facebook"
+         href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.airbnb.fr%2Frooms%2F439714%3Fs%3D3"
+         target="_blank">
+         <i class="icon icon-facebook icon-gray social-icon-size"></i>
+      </a>
+
+      <a class="share-btn"
+         data-network="twitter"
+         rel="nofollow"
+         title="Twitter"
+         href="https://twitter.com/intent/tweet?source=tweetbutton&text=J%27adore+%21+%22In+the+Foothills+of+the+Berkshires+%C3%A0+Kent%22+%40airbnb+%23Travel&url=https%3A%2F%2Fwww.airbnb.fr%2Frooms%2F439714%3Fs%3D4&related=airbnb"
+         target="_blank">
+        <i class="icon icon-twitter icon-gray social-icon-size"></i>
+      </a>
+
+      <a class="share-btn embedly-btn link-reset text-muted"
+         data-network="embedly"
+         data-embedly-locale="fr"
+         rel="nofollow"
+         title="Intégrer cette annonce"
+         href="#">
+        <i class="icon icon-code icon-gray social-icon-size"></i>
+      </a>
+
+      <a class="share-btn"
+         data-network="googlePlus"
+         rel="nofollow"
+         title="Google+"
+         href="https://plus.google.com/share?url=https%3A%2F%2Fwww.airbnb.fr%2Frooms%2F439714%3Fs%3D19"
+         target="_blank">
+        <i class="icon icon-google-plus icon-gray social-icon-size"></i>
+      </a>
+
+      <a class="share-btn"
+         data-network="pinterest"
+         rel="nofollow"
+         title="Pinterest"
+         href="//www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.airbnb.fr%2Frooms%2F439714%3Fs%3D16&media=https%3A%2F%2Fa1.muscache.com%2Fic%2Fpictures%2F19184475%2Ffe05902b_original.jpg%3Finterpolation%3Dlanczos-none%26size%3Dx_medium%26output-format%3Djpg%26output-quality%3D70&description=Regardez+ce+logement+incroyable+sur+Airbnb+%3A+In+the+Foothills+of+the+Berkshires+%C3%A0+Kent"
+         target="_blank">
+        <i class="icon icon-pinterest icon-gray social-icon-size"></i>
+      </a>
+
+    <span class="hide more-btn">
+      ···
+    </span>
+  </span>
+  <ul role="tooltip"
+    aria-hidden="true"
+    data-trigger=".more-btn"
+    data-event="hover"
+    data-sticky="true"
+    class="tooltip tooltip-top-middle list-unstyled more-social-options"
+    id="social-share-tooltip">
+  </ul>
+</div>
+
+          <div class="flag-trigger row-space-top-1 hide">
+            <a href="#" id="flag-for-listing-439714"
+              class="link-reset text-muted">
+              <i class="icon icon-flag h4"></i>
+              Signaler cette annonce
+            </a>
+            <div class="already-flagged text-muted row-space-top-2 hide">
+  Vous avez signalé ce logement.
+      <a href='#' class='undo_flag'>
+        Annuler ?
+      </a>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cancellation-grace-period-container hide">
+      <div class="panel-body">
+        <div class="media va-container">
+          <i class="pull-left icon icon-cancellation-policy va-top"></i>
+          <div class="media-body va-middle">
+            Si vous réservez 7 jours à l'avance, vous pouvez demander un remboursement intégral jusqu'à 24 heures après la réservation.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <input id="hosting_id" name="hosting_id" type="hidden" value="439714" />
+</form>
+<div class="mobile-bookit-btn-container panel-btn-sm panel-btn-fixed-sm hide">
+  <button id="book-it-sm-trigger" class="btn btn-primary btn-block btn-large">
+    Envoyer une demande
+  </button>
+</div>
+
+<span class="tooltip tooltip-top-middle"
+      role="tooltip"
+      data-trigger="#price-info-tooltip"
+      data-sticky="true"
+      aria-hidden="true">
+  <div id="monthly-breakdown"></div>
+</span>
+
+<span id="service-fee-tip"
+      class="tooltip tooltip-top-middle"
+      role="tooltip"
+      data-trigger="#service-fee-tooltip"
+      aria-hidden="true">
+  <p class="panel-body fee-no-vat-tooltip">
+    Il s'agit des frais facturés par Airbnb
+  </p>
+  <p class="panel-body hide fee-vat-tooltip">
+    Il s'agit des frais appliqués par Airbnb, TVA comprise.
+  </p>
+</span>
+
+<div id="tax-descriptions-tip"
+     class="tooltip tooltip-top-middle"
+     role="tooltip"
+     data-sticky="true"
+     data-trigger="#tax-descriptions-tooltip">
+</div>
+
+<div class="modal" role="dialog" aria-hidden="true" id="book-it-sm-modal">
+  <div class="modal-table">
+    <div class="modal-cell">
+      <div class="modal-content">
+        <div class="panel-header">
+          <a href="#" class="modal-close" data-behavior="modal-close"></a>
+          Envoyer une demande
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="details" class="details-section webkit-render-fix">
+    <div class="page-container-responsive">
+      <div class="row">
+        <div class="col-lg-8" id="details-column">
+          
+<div class="row-space-8 row-space-top-8">
+
+      <h4 class="row-space-4 text-center-sm">
+      À propos de ce logement
+    </h4>
+
+
+      <p id="edit-summary" class="row-space-2 hide">
+      <a href="#" data-href="/manage-listing/439714/overview">
+        Modifier le résumé
+</a>    </p>
+    <div class="panel panel-dark row-space-4">
+      <div class="panel-body">{{entity.description}}.</div>
+    </div>
+
+  <p class="text-center-sm">
+    <a id="contact-host-link" href="#">
+      <strong>Contacter l'hôte</strong>
+    </a>
+  </p>
+
+    <div class="row-space-4 row-space-top-4 inline-photo show-sm">
+    <a href="#" class="photo-trigger" data-index="1"><img alt="House and Studio" class="media-photo media-photo-block row-space-1 row-space-top-1 img-responsive" src="https://a2.muscache.com/ic/pictures/19184901/27133aea_original.jpg?interpolation=lanczos-none&amp;size=x_large&amp;output-format=progressive-jpeg&amp;output-quality=70" /></a>
+    <div class="row">
+      <div class="col-lg-9">
+          <p class="text-muted pull-left">House and Studio</p>
+      </div>
+      <div class="col-lg-3">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row-space-4 row-space-top-4 inline-photo">
+    <a href="#" class="photo-trigger" data-index="1"><img class="media-photo media-photo-block row-space-1 row-space-top-1 img-responsive" src="{{entity.urlImage}}?interpolation=lanczos-none&amp;size=x_large&amp;output-format=progressive-jpeg&amp;output-quality=70"></a>
+    <div class="row">
+      <div class="col-lg-9">
+          <p class="text-muted pull-left">airy, open kitchen</p>
+      </div>
+      <div class="col-lg-3">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+
+    <div class="row">
+      <div class="col-md-3">
+            <div class="text-muted">
+      Le logement
+    </div>
+
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+            <div class="col-md-6">
+                  <div>surface : <strong>{{entity.surface}}</strong></div>
+                  <div>Type de propriété : <strong>{{entity.typeimmob}}</strong></div>
+                  <div>jardin : <strong>{%if entity.jardin==0%}Non{%endif%}{%if entity.jardin==1%}Oui{%endif%}</strong></div>
+                  <div>Chambres : <strong>{{entity.nbrPiece}}</strong></div>
+            </div>
+            <div class="col-md-6">
+                  <div>entrée indépendant : <strong>{%if entity.entreeIndep==0%}Non{%endif%}
+                  {%if entity.entreeIndep==1%}Oui{%endif%}</strong></div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+
+  <div class="row amenities">
+  <div class="col-md-3 text-muted">
+    Équipements
+  </div>
+
+
+    <div class="col-md-9 expandable expandable-trigger-more">
+      <div class="expandable-content-summary">
+        <div class="row">
+
+        
+            <div class="col-sm-6">
+            {%if entity.cuisineEquipe==1%}
+                <div class="row-space-1">
+                  <i class="icon h3 icon-meal"></i>
+                  &nbsp;
+                  <span id="amenity-short-tooltip-trigger-8">
+                    Cuisine équipée
+                  </span>
+                </div>
+             {%endif%}
+
+
+
+                {%if entity.gazDeVille==1%}
+                    <div class="row-space-1">
+                      <i class="icon h3 icon-internet"></i>
+                      &nbsp;
+                      <span id="amenity-short-tooltip-trigger-3">
+                        Gaz de ville
+                      </span>
+                    </div>
+                {%endif%}  
+
+              {%if entity.meuble==0%}
+                    <div class="row-space-1">
+                      <i class="icon h3 icon-double-bed"></i>
+                      &nbsp;
+                      <span id="amenity-short-tooltip-trigger-3">
+                        meuble
+                      </span>
+                    </div>
+              {%endif%}                       
+
+            </div>
+
+            <div class="col-sm-6">
+                {%if entity.chauffage==1%}
+                    <div class="row-space-1">
+                      <i class="icon h3 icon-heating"></i>
+                      &nbsp;
+                      <span id="amenity-short-tooltip-trigger-30">
+                        Chauffage
+                      </span>
+                    </div>
+                {%endif%}
+                      
+                {%if entity.climatisation==1%}
+                    <div class="row-space-1">
+                      <i class="icon h3 icon-air-conditioning"></i>
+                      &nbsp;
+                      <span id="amenity-short-tooltip-trigger-5">
+                        Climatisation
+                      </span>
+                    </div>
+                {%endif%}
+            </div>
+            
+    </div>
+
+
+</div>
+
+</div>
+</div>
+<hr>
+
+
+
+    <div class="row">
+      <div class="col-md-3">
+            <div class="text-muted">
+      Prix
+    </div>
+
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+            <div class="col-md-6">
+                <div><strong>{{entity.payement}} Euro</strong></div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+
+
+    </div>
+  </div>
+
+
+
+    <div id="gmap-preload" class="hide"></div>
+    <!--[if lt IE 9]>
+      <script src="https://a0.muscache.com/airbnb/static/packages/libs_jquery_1x-39cf57d7094331dece0901a673582d68.js" type="text/javascript"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+      <script src="https://a0.muscache.com/airbnb/static/packages/libs_jquery_2x-d1d044282823177ce96ce5f9f96896ae.js" type="text/javascript"></script>
+    <!--<![endif]-->
+    <script src="https://a0.muscache.com/airbnb/static/packages/o2.1-032e4d142bfba16b9e35e9de3160c666.js" type="text/javascript"></script>
+    <script src="https://a0.muscache.com/airbnb/static/packages/core-7e1c42b184ebb81855796d4de8cc0382.js" type="text/javascript"></script>
+
+    <script>
+
+      Airbnb.init();
+</script>
+
+    <div id="fb-root"></div>
+
+    
+    <script src="https://a0.muscache.com/airbnb/static/packages/p3_template_manifest-caefceeee64eb2fa45d243a4b018fcd4.js" type="text/javascript"></script><script src="https://a0.muscache.com/airbnb/static/packages/p3.bundle-cfd5d1d85844e464db69843eff4be088.js" type="text/javascript"></script>
+    
+  <div class="modal" role="dialog" aria-hidden="true" id="contact-modal">
+    <div class="modal-table">
+      <div class="modal-cell">
+        <div class="modal-content">
+          <div style="height:300px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </body>
+</html>
+<!-- ver. a5eaa42bde807b81d755e474333e5b4df42f23d1 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
+";}i:1;a:2:{i:0;s:6:"string";i:1;s:37:"realEstateBundle:Offre:show.html.twig";}}}i:4;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:16:"Twig_Environment";s:5:"class";s:16:"Twig_Environment";s:4:"type";s:2:"->";s:8:"function";s:8:"tokenize";s:4:"file";s:50:"/home/haddada/realEstate/app/cache/dev/classes.php";s:4:"line";i:3275;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:32219:"{% extends '::base.html.twig' %}
+
+{% block body %}
+
+<!DOCTYPE html>
+
+<!--[if lt IE 8]>
+
+<html lang="fr"
+      
+      xmlns:fb="http://ogp.me/ns/fb#"
+      class="ie">
+
+<![endif]-->
+
+<!--[if IE 8]>
+
+
+<html lang="fr"
+      
+      xmlns:fb="http://ogp.me/ns/fb#"
+      class="ie ie8">
+
+<![endif]-->
+
+<!--[if IE 9]>
+
+  <html lang="fr"
+      
+      xmlns:fb="http://ogp.me/ns/fb#"
+      class="ie ie9">
+
+<![endif]-->
+
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="fr"
+      
+      xmlns:fb="http://ogp.me/ns/fb#">
+
+<!--<![endif]-->
+
+  <head>
+    <link rel="dns-prefetch" href="//maps.googleapis.com">
+    <link rel="dns-prefetch" href="//maps.gstatic.com">
+    <link rel="dns-prefetch" href="//mts0.googleapis.com">
+    <link rel="dns-prefetch" href="//mts1.googleapis.com">
+
+    <!--[if IE]><![endif]-->
+    <meta charset="utf-8">
+
+    <!--[if IE 8]>
+      <link href="https://a0.muscache.com/airbnb/static/packages/common_o2.1_ie8-225f1d45c73231751aaf97a633e0c23f.css" media="all" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if !(IE 8)]><!-->
+      <link href="https://a0.muscache.com/airbnb/static/packages/common_o2.1-2d55fa097938f1a001bdc9349da57511.css" media="all" rel="stylesheet" type="text/css" />
+    <!--<![endif]-->
+
+      <!--[if lt IE 9]>
+        <link href="https://a0.muscache.com/airbnb/static/compatibility/airglyphs-ie8-4726277b9b1996acd7c89b89f9bbcdd7.css" media="all" rel="stylesheet" type="text/css" />
+      <![endif]-->
+
+    
+  <!--[if IE]>
+  <link href="https://a0.muscache.com/airbnb/static/p3/p3_ie-51d81e0aeb02fc953c4ce5eb275fb1a3.css" media="screen" rel="stylesheet" type="text/css" />
+  <![endif]-->
+<link href="https://a0.muscache.com/airbnb/static/packages/p3-cf732b95af12ba825f6dbaea74afdf2a.css" media="screen" rel="stylesheet" type="text/css" />
+    
+
+    <meta id="csrf-param-meta-tag" name="csrf-param" content="authenticity_token"/>
+    <meta id="csrf-token-meta-tag" name="csrf-token" content=""/>
+
+    <script>
+
+      var sherlock_firstbyte = Number(new Date());
+</script>
+
+    <title>In the Foothills of the Berkshires à Kent</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+      <meta name="description" content="Chambre privée pour 80&amp;euro;. Sleep, Create, Rehearse!!  We are located on nine wooded acres at the foothills of the Berskhire Mountains and surrounded by state parks (Kent Fall...">
+
+
+
+
+     
+
+    <link rel="image_src" href={{entity.urlimage}}>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Airbnb">
+
+    <!--[if lte IE 9]>
+      <script src="https://a0.muscache.com/airbnb/static/packages/libs_ie_support-b79daf6f8ced9b9ee1d841fbcc88d2a7.js" type="text/javascript"></script>
+      <link href="https://a0.muscache.com/airbnb/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+      <link href="/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+      <script src="/respond.proxy.js?cb=1"></script>
+    <![endif]-->
+
+
+    <link rel="stylesheet" href="{{ asset('bundles/dcsrating/css/rating.css') }}" />
+
+  </head>
+  <body class="no_wiggle_webkit">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-46MK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+
+    <meta content="{&quot;flags&quot;:{&quot;name&quot;:&quot;flags&quot;,&quot;value&quot;:{&quot;can_see_community&quot;:2,&quot;og_publish&quot;:16,&quot;has_wishlisted&quot;:32,&quot;update_cached&quot;:64,&quot;revert_to_admin&quot;:128,&quot;facebook_connected&quot;:256,&quot;erf_override&quot;:512,&quot;has_search&quot;:1024,&quot;search_help_dropdown&quot;:2048,&quot;has_dates&quot;:4096,&quot;can_see_help_panel&quot;:8192,&quot;can_send_profile_messages&quot;:32768,&quot;just_logged_in&quot;:65536,&quot;has_been_host&quot;:131072,&quot;should_drop_pellet&quot;:262144,&quot;is_active_host&quot;:1048576,&quot;can_see_meetups&quot;:134217728,&quot;should_drop_sift_pellet&quot;:268435456,&quot;can_see_groups&quot;:536870912,&quot;has_verified_phone&quot;:1073741824,&quot;has_profile_pic&quot;:2147483648}},&quot;roles&quot;:{&quot;name&quot;:&quot;roles&quot;,&quot;value&quot;:{&quot;is_aircrew&quot;:8,&quot;is_content_manager&quot;:1048576,&quot;is_stats_admin&quot;:16777216}},&quot;user_attributes&quot;:{&quot;name&quot;:&quot;_user_attributes&quot;}}" id="_bootstrap-user-attr-cookies" />
+<meta content="{&quot;hca_contact_me&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:100,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;control&quot;,&quot;buckets&quot;:100},{&quot;name&quot;:&quot;hide_contact_me&quot;,&quot;buckets&quot;:0}]},&quot;p3_photo_grid&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:3,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;control&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;show_grid_above&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;show_grid_below&quot;,&quot;buckets&quot;:null}]},&quot;p3_contact_host_signup_vs_login&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:3,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;login_modal&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;signup_modal&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;signup_or_login_modal&quot;,&quot;buckets&quot;:null}]},&quot;inspectlet_on_guest&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:2,&quot;percent_exposed&quot;:1,&quot;treatments&quot;:[{&quot;name&quot;:&quot;control&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;inspectlet_active&quot;,&quot;buckets&quot;:null}]}}" id="_bootstrap-erf" />
+
+
+    <div class="smart-banner">
+  <a href="#" class="icon icon-remove icon-size-1 pull-left link-reset banner-close"></a>
+  <a href="#" data-href="http://r.airbnb.com/l.c.hsjS" class="pull-left app-icon install-link action-link"></a>
+  
+  </div>
+</div>
+
+
+    <div id="header" class="airbnb-header">
+
+  <div class="header--sm show-sm">
+  <a href="#" data-prevent-default class="link-reset burger--sm">
+    <i class="icon icon-reorder icon-rausch"></i>
+  </a>
+  <div class="title--sm text-center">
+      <button class="btn btn-block search-btn--sm search-modal-trigger">
+        <i class="icon icon-search icon-gray"></i>
+        <span class="search-placeholder--sm">
+          Où allez-vous ?
+        </span>
+      </button>
+  </div>
+  <div class="action--sm"></div>
+  <nav class="nav--sm"></nav>
+  <div class="search-modal-container"></div>
+</div>
+
+
+  <div class="regular-header clearfix hide-sm">
+  <a href="/" class="header-belo pull-left"></a>
+
+  <ul class="nav pull-left hide-sm list-unstyled search-form-container"
+    id="search-form-header">
+  <li id="header-search" class="search-bar-wrapper pull-left medium-right-margin">
+    <form action="/s" id="search-form" class="search-form">
+      <div class="search-bar">
+        <i class="icon icon-search icon-gray h4"></i>
+        <input type="text"
+               placeholder="Où allez-vous ?"
+               autocomplete="off"
+               name="location"
+               data-date-placeholder="jj/mm/aaaa"
+               class="location" />
+        <input type="hidden" name="source" value="hdr" />
+      </div>
+    </form>
+  </li>
+    <li class="browse-container pull-left hide-md">
+      <a class="link-reset header-browse-trigger"
+   href="#"
+   data-prevent-default
+   id="header-browse-trigger">
+  Naviguer
+   <i class="icon icon-caret-down icon-light-gray h5"></i>
+</a>
+<ul role="tooltip"
+    class="tooltip tooltip-top-left dropdown-menu list-unstyled"
+    data-trigger="#header-browse-trigger"
+    aria-hidden="true"
+    data-sticky="true">
+  <li>
+    <a href="/wishlists/popular"
+       class="link-reset menu-item header-browse-popular">
+      Wish Lists populaires
+    </a>
+  </li>
+  <li>
+    <a href="/wishlists/friends"
+       class="link-reset menu-item header-browse-friends">
+      Amis
+    </a>
+  </li>
+  <li>
+    <a href="/locations"
+       class="link-reset menu-item header-browse-neighborhoods">
+      Guide des Quartiers
+    </a>
+  </li>
+  <li class="groups hide">
+    <a href="#"
+       data-href="/groups"
+       rel="nofollow"
+       class="no-crawl link-reset menu-item header-browse-groups">
+      Groupes
+    </a>
+  </li>
+</ul>
+
+    </li>
+</ul>
+
+
+  <ul class="nav pull-right help-menu list-unstyled">
+  <li id='header-help-menu' class="help-menu-container pull-left large-right-margin hide-md" data-dropdown-sticky="true">
+    <a id="header-help-trigger"
+       class="help-toggle link-reset header-help-trigger"
+       href="/help">
+      Aide
+      <i class="icon icon-caret-down icon-light-gray h5"></i>
+    </a>
+    <div role="tooltip"
+         class="tooltip tooltip-top-right dropdown-menu help-dropdown"
+         aria-hidden="true"
+         data-trigger="#header-help-trigger"
+         data-sticky="true">
+      <ul class="list-layout">
+        <li class="search-bar--help hide">
+          <form action="/help/search" class="search-form--help menu-item">
+            <div class="input-addon">
+              <input type="text"
+                     placeholder="Rechercher dans le Centre d'aide"
+                     autocomplete="off"
+                     name="q"
+                     class="input-stem" />
+              <input type="hidden" name="search_from" value="hdr" />
+              <i class="btn btn-primary icon icon-search input-suffix form-submit--help"></i>
+            </div>
+          </form>
+        </li>
+        <li class="visit-helpcenter-cta hide">
+          <a href="/help" class="help-center-link menu-item">
+            Visitez le Centre d'aide &#187;
+          </a>
+        </li>
+        <li class="loading"></li>
+        <li class="all_faqs hide">
+          <a href="/help" class="link-reset menu-item">
+            Voir toutes les FAQ
+          </a>
+        </li>
+      </ul>
+    </div>
+  </li>
+    <li class="list-your-space pull-left">
+      <a id="list-your-space" class="btn btn-special list-your-space-btn" href="/rooms/new">
+        Publiez votre annonce
+      </a>
+    </li>
+</ul>
+<div id="help-panel-modal">
+</div>
+
+
+  <ul class="nav pull-right logged-out list-unstyled medium-right-margin">
+  <li id="sign_up" class="pull-left medium-right-margin">
+    <a data-signup-modal
+       data-header-view="true"
+       href="/signup_login?redirect_params[action]=show&amp;redirect_params[controller]=rooms&amp;redirect_params[guests]=2&amp;redirect_params[id]=439714&amp;redirect_params[s]=VziP"
+       class="link-reset"
+       rel="nofollow">
+      Inscription
+    </a>
+  </li>
+  <li id="login" class="pull-left">
+    <a data-login-modal
+       href="/login?redirect_params[action]=show&amp;redirect_params[controller]=rooms&amp;redirect_params[guests]=2&amp;redirect_params[id]=439714&amp;redirect_params[s]=VziP"
+       class="link-reset"
+       rel="nofollow">
+      Connexion
+    </a>
+  </li>
+</ul>
+
+
+  <ul class="nav pull-right logged-in list-unstyled medium-right-margin">
+  <li class="user-item pull-left medium-right-margin">
+    <a class="link-reset header-avatar-trigger"
+       id="header-avatar-trigger"
+       href="#">
+      <div class="media-photo media-round user-profile-image"></div>
+      <span class="value_name">
+        Utilisateur
+      </span>
+      <i class="icon icon-caret-down icon-light-gray h5"></i>
+    </a>
+    <ul role="tooltip"
+        class="tooltip tooltip-top-right dropdown-menu list-unstyled header-dropdown"
+        data-trigger="#header-avatar-trigger"
+        aria-hidden="true"
+        data-sticky="true">
+      <li>
+        <a href="#"
+           data-href="/home/dashboard"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-dashboard">
+          Tableau de bord
+        </a>
+      </li>
+      <li class="listings">
+        <a href="#"
+           data-href="/rooms"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-listing">
+          <span class="singular" style="display: none;">
+            Votre annonce
+          </span>
+          <span class="plural">
+            Mes annonces
+          </span>
+        </a>
+      </li>
+      <li class="reservations" style="display: none;">
+        <a href="#"
+           data-href="/my_listings"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-reservation">
+           Mes réservations
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/trips/upcoming"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-trips">
+          Mes voyages
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/wishlists/my"
+           id="wishlists"
+           class="no-crawl link-reset menu-item item-wishlists">
+          Wish Lists
+        </a>
+      </li>
+      <li class="groups">
+        <a href="#"
+           data-href="/groups"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-groups">
+          Groupes
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/invite?r=3"
+           class="no-crawl link-reset menu-item item-invite-friends">
+          Inviter des amis
+          <span class="label label-pink label-new">
+            Nouveau
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/users/edit"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-user-edit">
+          Modifier le profil
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/account"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-account">
+          Compte
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/logout"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item header-logout">
+          Déconnexion
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li id="inbox-item" class="inbox-item pull-left">
+    <a href="#"
+       data-href="/inbox"
+       rel="nofollow"
+       class="no-crawl link-reset inbox-icon">
+      <i class="alert-count fade text-center">0</i>
+      <i class="icon icon-envelope icon-gray">
+        <span class="text-hide hide">
+          Boîte de réception
+        </span>
+      </i>
+    </a>
+  </li>
+</ul>
+
+</div>
+
+</div>
+
+
+    <script src="https://a0.muscache.com/airbnb/static/packages/header_cookie-22aa60acabc7240964ecbee457825bba.js" type="text/javascript"></script>
+
+
+      <div class="flash-container"></div>
+
+    
+
+
+
+<div id="og_pro_photo_prompt" class="container"></div>
+
+<div id="room" itemscope itemtype="http://schema.org/Product">
+
+  <meta itemprop="image" content="https://a1.muscache.com/pictures/19184475/large.jpg">
+
+  <div id="photos" class="with-photos" style="height:80px">
+    
+  <div id="pricing" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <div id="price_amount" itemprop="price" class="pull-left h3 text-special">
+      {{entity.payement}}&euro;
+    </div>
+
+    <div id="payment-period-container" class="pull-right">
+      <div id="per_night" class="">
+     
+      </div>
+      <div id="per_month" class="hide">
+        Par mois
+        <i id="price-info-tooltip" class="icon icon-question hide" data-behavior="tooltip"></i>
+      </div>
+    </div>
+    <meta content="EUR" itemprop='priceCurrency'>
+  </div>
+    </div>
+
+  <div id="summary" class="panel room-section">
+    <div class="page-container-responsive">
+      <div class="row">
+        <div class="col-lg-8">
+          
+<div class="row-space-4 row-space-top-4">
+  <div class="row">
+
+    <div class="col-md-3 text-center">
+      <a href="#host-profile" class="media-photo media-round"><img alt="Steve &amp; Alison" class="host-profile-image" height="90" nopin="nopin" src="https://a0.muscache.com/ic/users/1970345/profile_pic/1334944224/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=225:*&amp;output-format=jpg&amp;output-quality=70" title="Steve &amp; Alison" width="90" /></a>
+    </div>
+
+    <div class="col-md-9">
+
+      <h1 itemprop="name"
+          class="overflow h3 row-space-1 text-center-sm"
+          id="listing_name">
+        à {{entity.Adresse.ville}}
+      </h1>
+
+      <span class="hide" itemprop='breadcrumb'>
+          <span itemscope itemtype='http://data-vocabulary.org/Breadcrumb'>
+            <a href="/s/%C3%89tats~Unis" itemprop="url"><span itemprop='title'>États-Unis</span>,</a>
+          </span>
+          <span itemscope itemtype='http://data-vocabulary.org/Breadcrumb'>
+            <a href="/s/Connecticut--%C3%89tats~Unis" itemprop="url"><span itemprop='title'>Connecticut</span>,</a>
+          </span>
+          <span itemscope itemtype='http://data-vocabulary.org/Breadcrumb'>
+            <a href="/s/Kent--Connecticut" itemprop="url"><span itemprop='title'>Kent</span></a>
+          </span>
+      </span>
+
+      <div id="display-address"
+           class="row-space-2 text-muted hide-sm"
+           itemprop='aggregateRating' itemscope itemtype="http://schema.org/AggregateRating"
+           data-location="Kent, CT, États-Unis">
+
+        <p  class="link-reset">{{entity.Adresse.ville}}, {{entity.Adresse.gouvernorat}}, Tunis</p>
+
+          &nbsp;
+          <a href="#reviews" class="link-reset">      <div class="star-rating">
+        <div class="foreground">
+                  {%include 'realEstateBundle:Offre:vote.html.twig'}
+
+        
+
+        </div>
+        <div class="background">
+          
+        </div>
+      </div>
+(<span itemprop="reviewCount">{{entity.NBNote}}</span>)</a>
+      </div>
+
+      
+
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-3 text-muted text-center hide-sm">
+      <a href="#host-profile" class="link-reset text-wrap">Steve &amp; Alison</a>
+    </div>
+
+   
+
+  </div>
+</div>
+
+        </div>
+        
+        <div class="col-lg-4">
+          
+<form accept-charset="UTF-8" action="https://www.airbnb.fr/payments/book?hosting_id=439714" class="info new-o2-form-inline" id="book_it_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="V4$.airbnb.fr$QN0wtDxmjvE$ABJDUnGhHWqzX8KbfvNkhPC_bVNa0Eo40R-UJrX3Jms=" /></div>
+
+  <div id="book_it">
+   
+            
+<div id="pf-pic-prompt-container" class="hide row-space-top-2">
+
+  <div class="signup-or-separator">
+    <h6 class="signup-or-separator--text">ou</h6>
+    <hr>
+  </div>
+
+  <div class="pf-pic-prompt text-center">
+    <a href='#' class='profile-pic-upsell-launcher'>Ajoutez une photo</a> pour faire une réservation instantanée de ce logement.
+
+    <i class="icon icon-question" data-behavior="tooltip" data-position="bottom"
+       title="La réservation instantanée vous permet de réserver un logement aussitôt, sans avoir à attendre la confirmation de l'hôte."></i>
+  </div>
+</div>
+
+          </div>
+
+          <div id="book_it_disabled" class="text-center hide">
+            <p id="book_it_disabled_message" class="icon-rausch">
+              Ce logement n'est pas disponible.
+            </p>
+            <a href="" class="btn btn-large btn-block" id="view_other_listings_button">
+              Voir d'autres annonces
+            </a>
+          </div>
+        </div>
+
+        <div id="book-it-urgency-commitment" data-host-name="Steve &amp; Alison">
+          <div data-hook="visitor-count-simple"
+               class="row row-space-top-3 hide">
+            <div class="col-10 col-center">
+              <div data-hook="visitor-count-simple-content"
+                   class="text-center text-muted">
+              </div>
+            </div>
+          </div>
+          <div data-hook="urgency-tooltip"
+               class="tooltip tooltip-layout tooltip-top-middle tooltip-no-border tooltip-light-beach row-space-top-4 hide">
+            <div class="panel-body">
+              <div class="media">
+                <i class="icon icon-hourglass-color pull-left"></i>
+                <div class="media-body" data-hook="urgency-tooltip-content">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        </div>
+
+        <div class="other-actions hide-sm text-center">
+          <div class="social-share-widget row-space-top-3">
+  <span class="share-title">
+    Partagez :
+  </span>
+  <span class="share-triggers">
+
+      <a class="share-btn"
+         data-email-share-link="/rooms/439714/email_listing"
+         data-network="email"
+         rel="nofollow"
+         title="E-mail"
+         href="#">
+        <i class="icon icon-envelope icon-gray social-icon-size"></i>
+      </a>
+
+
+
+
+      <a class="share-btn"
+         data-network="facebook"
+         rel="nofollow"
+         title="Facebook"
+         href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.airbnb.fr%2Frooms%2F439714%3Fs%3D3"
+         target="_blank">
+         <i class="icon icon-facebook icon-gray social-icon-size"></i>
+      </a>
+
+      <a class="share-btn"
+         data-network="twitter"
+         rel="nofollow"
+         title="Twitter"
+         href="https://twitter.com/intent/tweet?source=tweetbutton&text=J%27adore+%21+%22In+the+Foothills+of+the+Berkshires+%C3%A0+Kent%22+%40airbnb+%23Travel&url=https%3A%2F%2Fwww.airbnb.fr%2Frooms%2F439714%3Fs%3D4&related=airbnb"
+         target="_blank">
+        <i class="icon icon-twitter icon-gray social-icon-size"></i>
+      </a>
+
+      <a class="share-btn embedly-btn link-reset text-muted"
+         data-network="embedly"
+         data-embedly-locale="fr"
+         rel="nofollow"
+         title="Intégrer cette annonce"
+         href="#">
+        <i class="icon icon-code icon-gray social-icon-size"></i>
+      </a>
+
+      <a class="share-btn"
+         data-network="googlePlus"
+         rel="nofollow"
+         title="Google+"
+         href="https://plus.google.com/share?url=https%3A%2F%2Fwww.airbnb.fr%2Frooms%2F439714%3Fs%3D19"
+         target="_blank">
+        <i class="icon icon-google-plus icon-gray social-icon-size"></i>
+      </a>
+
+      <a class="share-btn"
+         data-network="pinterest"
+         rel="nofollow"
+         title="Pinterest"
+         href="//www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.airbnb.fr%2Frooms%2F439714%3Fs%3D16&media=https%3A%2F%2Fa1.muscache.com%2Fic%2Fpictures%2F19184475%2Ffe05902b_original.jpg%3Finterpolation%3Dlanczos-none%26size%3Dx_medium%26output-format%3Djpg%26output-quality%3D70&description=Regardez+ce+logement+incroyable+sur+Airbnb+%3A+In+the+Foothills+of+the+Berkshires+%C3%A0+Kent"
+         target="_blank">
+        <i class="icon icon-pinterest icon-gray social-icon-size"></i>
+      </a>
+
+    <span class="hide more-btn">
+      ···
+    </span>
+  </span>
+  <ul role="tooltip"
+    aria-hidden="true"
+    data-trigger=".more-btn"
+    data-event="hover"
+    data-sticky="true"
+    class="tooltip tooltip-top-middle list-unstyled more-social-options"
+    id="social-share-tooltip">
+  </ul>
+</div>
+
+          <div class="flag-trigger row-space-top-1 hide">
+            <a href="#" id="flag-for-listing-439714"
+              class="link-reset text-muted">
+              <i class="icon icon-flag h4"></i>
+              Signaler cette annonce
+            </a>
+            <div class="already-flagged text-muted row-space-top-2 hide">
+  Vous avez signalé ce logement.
+      <a href='#' class='undo_flag'>
+        Annuler ?
+      </a>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cancellation-grace-period-container hide">
+      <div class="panel-body">
+        <div class="media va-container">
+          <i class="pull-left icon icon-cancellation-policy va-top"></i>
+          <div class="media-body va-middle">
+            Si vous réservez 7 jours à l'avance, vous pouvez demander un remboursement intégral jusqu'à 24 heures après la réservation.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <input id="hosting_id" name="hosting_id" type="hidden" value="439714" />
+</form>
+<div class="mobile-bookit-btn-container panel-btn-sm panel-btn-fixed-sm hide">
+  <button id="book-it-sm-trigger" class="btn btn-primary btn-block btn-large">
+    Envoyer une demande
+  </button>
+</div>
+
+<span class="tooltip tooltip-top-middle"
+      role="tooltip"
+      data-trigger="#price-info-tooltip"
+      data-sticky="true"
+      aria-hidden="true">
+  <div id="monthly-breakdown"></div>
+</span>
+
+<span id="service-fee-tip"
+      class="tooltip tooltip-top-middle"
+      role="tooltip"
+      data-trigger="#service-fee-tooltip"
+      aria-hidden="true">
+  <p class="panel-body fee-no-vat-tooltip">
+    Il s'agit des frais facturés par Airbnb
+  </p>
+  <p class="panel-body hide fee-vat-tooltip">
+    Il s'agit des frais appliqués par Airbnb, TVA comprise.
+  </p>
+</span>
+
+<div id="tax-descriptions-tip"
+     class="tooltip tooltip-top-middle"
+     role="tooltip"
+     data-sticky="true"
+     data-trigger="#tax-descriptions-tooltip">
+</div>
+
+<div class="modal" role="dialog" aria-hidden="true" id="book-it-sm-modal">
+  <div class="modal-table">
+    <div class="modal-cell">
+      <div class="modal-content">
+        <div class="panel-header">
+          <a href="#" class="modal-close" data-behavior="modal-close"></a>
+          Envoyer une demande
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="details" class="details-section webkit-render-fix">
+    <div class="page-container-responsive">
+      <div class="row">
+        <div class="col-lg-8" id="details-column">
+          
+<div class="row-space-8 row-space-top-8">
+
+      <h4 class="row-space-4 text-center-sm">
+      À propos de ce logement
+    </h4>
+
+
+      <p id="edit-summary" class="row-space-2 hide">
+      <a href="#" data-href="/manage-listing/439714/overview">
+        Modifier le résumé
+</a>    </p>
+    <div class="panel panel-dark row-space-4">
+      <div class="panel-body">{{entity.description}}.</div>
+    </div>
+
+  <p class="text-center-sm">
+    <a id="contact-host-link" href="#">
+      <strong>Contacter l'hôte</strong>
+    </a>
+  </p>
+
+    <div class="row-space-4 row-space-top-4 inline-photo show-sm">
+    <a href="#" class="photo-trigger" data-index="1"><img alt="House and Studio" class="media-photo media-photo-block row-space-1 row-space-top-1 img-responsive" src="https://a2.muscache.com/ic/pictures/19184901/27133aea_original.jpg?interpolation=lanczos-none&amp;size=x_large&amp;output-format=progressive-jpeg&amp;output-quality=70" /></a>
+    <div class="row">
+      <div class="col-lg-9">
+          <p class="text-muted pull-left">House and Studio</p>
+      </div>
+      <div class="col-lg-3">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row-space-4 row-space-top-4 inline-photo">
+    <a href="#" class="photo-trigger" data-index="1"><img class="media-photo media-photo-block row-space-1 row-space-top-1 img-responsive" src="{{entity.urlImage}}?interpolation=lanczos-none&amp;size=x_large&amp;output-format=progressive-jpeg&amp;output-quality=70"></a>
+    <div class="row">
+      <div class="col-lg-9">
+          <p class="text-muted pull-left">airy, open kitchen</p>
+      </div>
+      <div class="col-lg-3">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+
+    <div class="row">
+      <div class="col-md-3">
+            <div class="text-muted">
+      Le logement
+    </div>
+
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+            <div class="col-md-6">
+                  <div>surface : <strong>{{entity.surface}}</strong></div>
+                  <div>Type de propriété : <strong>{{entity.typeimmob}}</strong></div>
+                  <div>jardin : <strong>{%if entity.jardin==0%}Non{%endif%}{%if entity.jardin==1%}Oui{%endif%}</strong></div>
+                  <div>Chambres : <strong>{{entity.nbrPiece}}</strong></div>
+            </div>
+            <div class="col-md-6">
+                  <div>entrée indépendant : <strong>{%if entity.entreeIndep==0%}Non{%endif%}
+                  {%if entity.entreeIndep==1%}Oui{%endif%}</strong></div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+
+  <div class="row amenities">
+  <div class="col-md-3 text-muted">
+    Équipements
+  </div>
+
+
+    <div class="col-md-9 expandable expandable-trigger-more">
+      <div class="expandable-content-summary">
+        <div class="row">
+
+        
+            <div class="col-sm-6">
+            {%if entity.cuisineEquipe==1%}
+                <div class="row-space-1">
+                  <i class="icon h3 icon-meal"></i>
+                  &nbsp;
+                  <span id="amenity-short-tooltip-trigger-8">
+                    Cuisine équipée
+                  </span>
+                </div>
+             {%endif%}
+
+
+
+                {%if entity.gazDeVille==1%}
+                    <div class="row-space-1">
+                      <i class="icon h3 icon-internet"></i>
+                      &nbsp;
+                      <span id="amenity-short-tooltip-trigger-3">
+                        Gaz de ville
+                      </span>
+                    </div>
+                {%endif%}  
+
+              {%if entity.meuble==0%}
+                    <div class="row-space-1">
+                      <i class="icon h3 icon-double-bed"></i>
+                      &nbsp;
+                      <span id="amenity-short-tooltip-trigger-3">
+                        meuble
+                      </span>
+                    </div>
+              {%endif%}                       
+
+            </div>
+
+            <div class="col-sm-6">
+                {%if entity.chauffage==1%}
+                    <div class="row-space-1">
+                      <i class="icon h3 icon-heating"></i>
+                      &nbsp;
+                      <span id="amenity-short-tooltip-trigger-30">
+                        Chauffage
+                      </span>
+                    </div>
+                {%endif%}
+                      
+                {%if entity.climatisation==1%}
+                    <div class="row-space-1">
+                      <i class="icon h3 icon-air-conditioning"></i>
+                      &nbsp;
+                      <span id="amenity-short-tooltip-trigger-5">
+                        Climatisation
+                      </span>
+                    </div>
+                {%endif%}
+            </div>
+            
+    </div>
+
+
+</div>
+
+</div>
+</div>
+<hr>
+
+
+
+    <div class="row">
+      <div class="col-md-3">
+            <div class="text-muted">
+      Prix
+    </div>
+
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+            <div class="col-md-6">
+                <div><strong>{{entity.payement}} Euro</strong></div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+
+
+    </div>
+  </div>
+
+
+
+    <div id="gmap-preload" class="hide"></div>
+    <!--[if lt IE 9]>
+      <script src="https://a0.muscache.com/airbnb/static/packages/libs_jquery_1x-39cf57d7094331dece0901a673582d68.js" type="text/javascript"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+      <script src="https://a0.muscache.com/airbnb/static/packages/libs_jquery_2x-d1d044282823177ce96ce5f9f96896ae.js" type="text/javascript"></script>
+    <!--<![endif]-->
+    <script src="https://a0.muscache.com/airbnb/static/packages/o2.1-032e4d142bfba16b9e35e9de3160c666.js" type="text/javascript"></script>
+    <script src="https://a0.muscache.com/airbnb/static/packages/core-7e1c42b184ebb81855796d4de8cc0382.js" type="text/javascript"></script>
+
+    <script>
+
+      Airbnb.init();
+</script>
+
+    <div id="fb-root"></div>
+
+    
+    <script src="https://a0.muscache.com/airbnb/static/packages/p3_template_manifest-caefceeee64eb2fa45d243a4b018fcd4.js" type="text/javascript"></script><script src="https://a0.muscache.com/airbnb/static/packages/p3.bundle-cfd5d1d85844e464db69843eff4be088.js" type="text/javascript"></script>
+    
+  <div class="modal" role="dialog" aria-hidden="true" id="contact-modal">
+    <div class="modal-table">
+      <div class="modal-cell">
+        <div class="modal-content">
+          <div style="height:300px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </body>
+</html>
+<!-- ver. a5eaa42bde807b81d755e474333e5b4df42f23d1 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
+";}i:1;a:2:{i:0;s:6:"string";i:1;s:37:"realEstateBundle:Offre:show.html.twig";}}}i:5;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:16:"Twig_Environment";s:5:"class";s:16:"Twig_Environment";s:4:"type";s:2:"->";s:8:"function";s:13:"compileSource";s:4:"file";s:50:"/home/haddada/realEstate/app/cache/dev/classes.php";s:4:"line";i:3156;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:32219:"{% extends '::base.html.twig' %}
+
+{% block body %}
+
+<!DOCTYPE html>
+
+<!--[if lt IE 8]>
+
+<html lang="fr"
+      
+      xmlns:fb="http://ogp.me/ns/fb#"
+      class="ie">
+
+<![endif]-->
+
+<!--[if IE 8]>
+
+
+<html lang="fr"
+      
+      xmlns:fb="http://ogp.me/ns/fb#"
+      class="ie ie8">
+
+<![endif]-->
+
+<!--[if IE 9]>
+
+  <html lang="fr"
+      
+      xmlns:fb="http://ogp.me/ns/fb#"
+      class="ie ie9">
+
+<![endif]-->
+
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="fr"
+      
+      xmlns:fb="http://ogp.me/ns/fb#">
+
+<!--<![endif]-->
+
+  <head>
+    <link rel="dns-prefetch" href="//maps.googleapis.com">
+    <link rel="dns-prefetch" href="//maps.gstatic.com">
+    <link rel="dns-prefetch" href="//mts0.googleapis.com">
+    <link rel="dns-prefetch" href="//mts1.googleapis.com">
+
+    <!--[if IE]><![endif]-->
+    <meta charset="utf-8">
+
+    <!--[if IE 8]>
+      <link href="https://a0.muscache.com/airbnb/static/packages/common_o2.1_ie8-225f1d45c73231751aaf97a633e0c23f.css" media="all" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if !(IE 8)]><!-->
+      <link href="https://a0.muscache.com/airbnb/static/packages/common_o2.1-2d55fa097938f1a001bdc9349da57511.css" media="all" rel="stylesheet" type="text/css" />
+    <!--<![endif]-->
+
+      <!--[if lt IE 9]>
+        <link href="https://a0.muscache.com/airbnb/static/compatibility/airglyphs-ie8-4726277b9b1996acd7c89b89f9bbcdd7.css" media="all" rel="stylesheet" type="text/css" />
+      <![endif]-->
+
+    
+  <!--[if IE]>
+  <link href="https://a0.muscache.com/airbnb/static/p3/p3_ie-51d81e0aeb02fc953c4ce5eb275fb1a3.css" media="screen" rel="stylesheet" type="text/css" />
+  <![endif]-->
+<link href="https://a0.muscache.com/airbnb/static/packages/p3-cf732b95af12ba825f6dbaea74afdf2a.css" media="screen" rel="stylesheet" type="text/css" />
+    
+
+    <meta id="csrf-param-meta-tag" name="csrf-param" content="authenticity_token"/>
+    <meta id="csrf-token-meta-tag" name="csrf-token" content=""/>
+
+    <script>
+
+      var sherlock_firstbyte = Number(new Date());
+</script>
+
+    <title>In the Foothills of the Berkshires à Kent</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+      <meta name="description" content="Chambre privée pour 80&amp;euro;. Sleep, Create, Rehearse!!  We are located on nine wooded acres at the foothills of the Berskhire Mountains and surrounded by state parks (Kent Fall...">
+
+
+
+
+     
+
+    <link rel="image_src" href={{entity.urlimage}}>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Airbnb">
+
+    <!--[if lte IE 9]>
+      <script src="https://a0.muscache.com/airbnb/static/packages/libs_ie_support-b79daf6f8ced9b9ee1d841fbcc88d2a7.js" type="text/javascript"></script>
+      <link href="https://a0.muscache.com/airbnb/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+      <link href="/respond.proxy.gif" id="respond-redirect" rel="respond-redirect" />
+      <script src="/respond.proxy.js?cb=1"></script>
+    <![endif]-->
+
+
+    <link rel="stylesheet" href="{{ asset('bundles/dcsrating/css/rating.css') }}" />
+
+  </head>
+  <body class="no_wiggle_webkit">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-46MK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+
+    <meta content="{&quot;flags&quot;:{&quot;name&quot;:&quot;flags&quot;,&quot;value&quot;:{&quot;can_see_community&quot;:2,&quot;og_publish&quot;:16,&quot;has_wishlisted&quot;:32,&quot;update_cached&quot;:64,&quot;revert_to_admin&quot;:128,&quot;facebook_connected&quot;:256,&quot;erf_override&quot;:512,&quot;has_search&quot;:1024,&quot;search_help_dropdown&quot;:2048,&quot;has_dates&quot;:4096,&quot;can_see_help_panel&quot;:8192,&quot;can_send_profile_messages&quot;:32768,&quot;just_logged_in&quot;:65536,&quot;has_been_host&quot;:131072,&quot;should_drop_pellet&quot;:262144,&quot;is_active_host&quot;:1048576,&quot;can_see_meetups&quot;:134217728,&quot;should_drop_sift_pellet&quot;:268435456,&quot;can_see_groups&quot;:536870912,&quot;has_verified_phone&quot;:1073741824,&quot;has_profile_pic&quot;:2147483648}},&quot;roles&quot;:{&quot;name&quot;:&quot;roles&quot;,&quot;value&quot;:{&quot;is_aircrew&quot;:8,&quot;is_content_manager&quot;:1048576,&quot;is_stats_admin&quot;:16777216}},&quot;user_attributes&quot;:{&quot;name&quot;:&quot;_user_attributes&quot;}}" id="_bootstrap-user-attr-cookies" />
+<meta content="{&quot;hca_contact_me&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:100,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;control&quot;,&quot;buckets&quot;:100},{&quot;name&quot;:&quot;hide_contact_me&quot;,&quot;buckets&quot;:0}]},&quot;p3_photo_grid&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:3,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;control&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;show_grid_above&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;show_grid_below&quot;,&quot;buckets&quot;:null}]},&quot;p3_contact_host_signup_vs_login&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:3,&quot;percent_exposed&quot;:100,&quot;treatments&quot;:[{&quot;name&quot;:&quot;login_modal&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;signup_modal&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;signup_or_login_modal&quot;,&quot;buckets&quot;:null}]},&quot;inspectlet_on_guest&quot;:{&quot;subject&quot;:&quot;bev&quot;,&quot;buckets&quot;:2,&quot;percent_exposed&quot;:1,&quot;treatments&quot;:[{&quot;name&quot;:&quot;control&quot;,&quot;buckets&quot;:null},{&quot;name&quot;:&quot;inspectlet_active&quot;,&quot;buckets&quot;:null}]}}" id="_bootstrap-erf" />
+
+
+    <div class="smart-banner">
+  <a href="#" class="icon icon-remove icon-size-1 pull-left link-reset banner-close"></a>
+  <a href="#" data-href="http://r.airbnb.com/l.c.hsjS" class="pull-left app-icon install-link action-link"></a>
+  
+  </div>
+</div>
+
+
+    <div id="header" class="airbnb-header">
+
+  <div class="header--sm show-sm">
+  <a href="#" data-prevent-default class="link-reset burger--sm">
+    <i class="icon icon-reorder icon-rausch"></i>
+  </a>
+  <div class="title--sm text-center">
+      <button class="btn btn-block search-btn--sm search-modal-trigger">
+        <i class="icon icon-search icon-gray"></i>
+        <span class="search-placeholder--sm">
+          Où allez-vous ?
+        </span>
+      </button>
+  </div>
+  <div class="action--sm"></div>
+  <nav class="nav--sm"></nav>
+  <div class="search-modal-container"></div>
+</div>
+
+
+  <div class="regular-header clearfix hide-sm">
+  <a href="/" class="header-belo pull-left"></a>
+
+  <ul class="nav pull-left hide-sm list-unstyled search-form-container"
+    id="search-form-header">
+  <li id="header-search" class="search-bar-wrapper pull-left medium-right-margin">
+    <form action="/s" id="search-form" class="search-form">
+      <div class="search-bar">
+        <i class="icon icon-search icon-gray h4"></i>
+        <input type="text"
+               placeholder="Où allez-vous ?"
+               autocomplete="off"
+               name="location"
+               data-date-placeholder="jj/mm/aaaa"
+               class="location" />
+        <input type="hidden" name="source" value="hdr" />
+      </div>
+    </form>
+  </li>
+    <li class="browse-container pull-left hide-md">
+      <a class="link-reset header-browse-trigger"
+   href="#"
+   data-prevent-default
+   id="header-browse-trigger">
+  Naviguer
+   <i class="icon icon-caret-down icon-light-gray h5"></i>
+</a>
+<ul role="tooltip"
+    class="tooltip tooltip-top-left dropdown-menu list-unstyled"
+    data-trigger="#header-browse-trigger"
+    aria-hidden="true"
+    data-sticky="true">
+  <li>
+    <a href="/wishlists/popular"
+       class="link-reset menu-item header-browse-popular">
+      Wish Lists populaires
+    </a>
+  </li>
+  <li>
+    <a href="/wishlists/friends"
+       class="link-reset menu-item header-browse-friends">
+      Amis
+    </a>
+  </li>
+  <li>
+    <a href="/locations"
+       class="link-reset menu-item header-browse-neighborhoods">
+      Guide des Quartiers
+    </a>
+  </li>
+  <li class="groups hide">
+    <a href="#"
+       data-href="/groups"
+       rel="nofollow"
+       class="no-crawl link-reset menu-item header-browse-groups">
+      Groupes
+    </a>
+  </li>
+</ul>
+
+    </li>
+</ul>
+
+
+  <ul class="nav pull-right help-menu list-unstyled">
+  <li id='header-help-menu' class="help-menu-container pull-left large-right-margin hide-md" data-dropdown-sticky="true">
+    <a id="header-help-trigger"
+       class="help-toggle link-reset header-help-trigger"
+       href="/help">
+      Aide
+      <i class="icon icon-caret-down icon-light-gray h5"></i>
+    </a>
+    <div role="tooltip"
+         class="tooltip tooltip-top-right dropdown-menu help-dropdown"
+         aria-hidden="true"
+         data-trigger="#header-help-trigger"
+         data-sticky="true">
+      <ul class="list-layout">
+        <li class="search-bar--help hide">
+          <form action="/help/search" class="search-form--help menu-item">
+            <div class="input-addon">
+              <input type="text"
+                     placeholder="Rechercher dans le Centre d'aide"
+                     autocomplete="off"
+                     name="q"
+                     class="input-stem" />
+              <input type="hidden" name="search_from" value="hdr" />
+              <i class="btn btn-primary icon icon-search input-suffix form-submit--help"></i>
+            </div>
+          </form>
+        </li>
+        <li class="visit-helpcenter-cta hide">
+          <a href="/help" class="help-center-link menu-item">
+            Visitez le Centre d'aide &#187;
+          </a>
+        </li>
+        <li class="loading"></li>
+        <li class="all_faqs hide">
+          <a href="/help" class="link-reset menu-item">
+            Voir toutes les FAQ
+          </a>
+        </li>
+      </ul>
+    </div>
+  </li>
+    <li class="list-your-space pull-left">
+      <a id="list-your-space" class="btn btn-special list-your-space-btn" href="/rooms/new">
+        Publiez votre annonce
+      </a>
+    </li>
+</ul>
+<div id="help-panel-modal">
+</div>
+
+
+  <ul class="nav pull-right logged-out list-unstyled medium-right-margin">
+  <li id="sign_up" class="pull-left medium-right-margin">
+    <a data-signup-modal
+       data-header-view="true"
+       href="/signup_login?redirect_params[action]=show&amp;redirect_params[controller]=rooms&amp;redirect_params[guests]=2&amp;redirect_params[id]=439714&amp;redirect_params[s]=VziP"
+       class="link-reset"
+       rel="nofollow">
+      Inscription
+    </a>
+  </li>
+  <li id="login" class="pull-left">
+    <a data-login-modal
+       href="/login?redirect_params[action]=show&amp;redirect_params[controller]=rooms&amp;redirect_params[guests]=2&amp;redirect_params[id]=439714&amp;redirect_params[s]=VziP"
+       class="link-reset"
+       rel="nofollow">
+      Connexion
+    </a>
+  </li>
+</ul>
+
+
+  <ul class="nav pull-right logged-in list-unstyled medium-right-margin">
+  <li class="user-item pull-left medium-right-margin">
+    <a class="link-reset header-avatar-trigger"
+       id="header-avatar-trigger"
+       href="#">
+      <div class="media-photo media-round user-profile-image"></div>
+      <span class="value_name">
+        Utilisateur
+      </span>
+      <i class="icon icon-caret-down icon-light-gray h5"></i>
+    </a>
+    <ul role="tooltip"
+        class="tooltip tooltip-top-right dropdown-menu list-unstyled header-dropdown"
+        data-trigger="#header-avatar-trigger"
+        aria-hidden="true"
+        data-sticky="true">
+      <li>
+        <a href="#"
+           data-href="/home/dashboard"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-dashboard">
+          Tableau de bord
+        </a>
+      </li>
+      <li class="listings">
+        <a href="#"
+           data-href="/rooms"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-listing">
+          <span class="singular" style="display: none;">
+            Votre annonce
+          </span>
+          <span class="plural">
+            Mes annonces
+          </span>
+        </a>
+      </li>
+      <li class="reservations" style="display: none;">
+        <a href="#"
+           data-href="/my_listings"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-reservation">
+           Mes réservations
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/trips/upcoming"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-trips">
+          Mes voyages
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/wishlists/my"
+           id="wishlists"
+           class="no-crawl link-reset menu-item item-wishlists">
+          Wish Lists
+        </a>
+      </li>
+      <li class="groups">
+        <a href="#"
+           data-href="/groups"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-groups">
+          Groupes
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/invite?r=3"
+           class="no-crawl link-reset menu-item item-invite-friends">
+          Inviter des amis
+          <span class="label label-pink label-new">
+            Nouveau
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/users/edit"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-user-edit">
+          Modifier le profil
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/account"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item item-account">
+          Compte
+        </a>
+      </li>
+      <li>
+        <a href="#"
+           data-href="/logout"
+           rel="nofollow"
+           class="no-crawl link-reset menu-item header-logout">
+          Déconnexion
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li id="inbox-item" class="inbox-item pull-left">
+    <a href="#"
+       data-href="/inbox"
+       rel="nofollow"
+       class="no-crawl link-reset inbox-icon">
+      <i class="alert-count fade text-center">0</i>
+      <i class="icon icon-envelope icon-gray">
+        <span class="text-hide hide">
+          Boîte de réception
+        </span>
+      </i>
+    </a>
+  </li>
+</ul>
+
+</div>
+
+</div>
+
+
+    <script src="https://a0.muscache.com/airbnb/static/packages/header_cookie-22aa60acabc7240964ecbee457825bba.js" type="text/javascript"></script>
+
+
+      <div class="flash-container"></div>
+
+    
+
+
+
+<div id="og_pro_photo_prompt" class="container"></div>
+
+<div id="room" itemscope itemtype="http://schema.org/Product">
+
+  <meta itemprop="image" content="https://a1.muscache.com/pictures/19184475/large.jpg">
+
+  <div id="photos" class="with-photos" style="height:80px">
+    
+  <div id="pricing" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <div id="price_amount" itemprop="price" class="pull-left h3 text-special">
+      {{entity.payement}}&euro;
+    </div>
+
+    <div id="payment-period-container" class="pull-right">
+      <div id="per_night" class="">
+     
+      </div>
+      <div id="per_month" class="hide">
+        Par mois
+        <i id="price-info-tooltip" class="icon icon-question hide" data-behavior="tooltip"></i>
+      </div>
+    </div>
+    <meta content="EUR" itemprop='priceCurrency'>
+  </div>
+    </div>
+
+  <div id="summary" class="panel room-section">
+    <div class="page-container-responsive">
+      <div class="row">
+        <div class="col-lg-8">
+          
+<div class="row-space-4 row-space-top-4">
+  <div class="row">
+
+    <div class="col-md-3 text-center">
+      <a href="#host-profile" class="media-photo media-round"><img alt="Steve &amp; Alison" class="host-profile-image" height="90" nopin="nopin" src="https://a0.muscache.com/ic/users/1970345/profile_pic/1334944224/original.jpg?interpolation=lanczos-none&amp;crop=w:w;*,*&amp;crop=h:h;*,*&amp;resize=225:*&amp;output-format=jpg&amp;output-quality=70" title="Steve &amp; Alison" width="90" /></a>
+    </div>
+
+    <div class="col-md-9">
+
+      <h1 itemprop="name"
+          class="overflow h3 row-space-1 text-center-sm"
+          id="listing_name">
+        à {{entity.Adresse.ville}}
+      </h1>
+
+      <span class="hide" itemprop='breadcrumb'>
+          <span itemscope itemtype='http://data-vocabulary.org/Breadcrumb'>
+            <a href="/s/%C3%89tats~Unis" itemprop="url"><span itemprop='title'>États-Unis</span>,</a>
+          </span>
+          <span itemscope itemtype='http://data-vocabulary.org/Breadcrumb'>
+            <a href="/s/Connecticut--%C3%89tats~Unis" itemprop="url"><span itemprop='title'>Connecticut</span>,</a>
+          </span>
+          <span itemscope itemtype='http://data-vocabulary.org/Breadcrumb'>
+            <a href="/s/Kent--Connecticut" itemprop="url"><span itemprop='title'>Kent</span></a>
+          </span>
+      </span>
+
+      <div id="display-address"
+           class="row-space-2 text-muted hide-sm"
+           itemprop='aggregateRating' itemscope itemtype="http://schema.org/AggregateRating"
+           data-location="Kent, CT, États-Unis">
+
+        <p  class="link-reset">{{entity.Adresse.ville}}, {{entity.Adresse.gouvernorat}}, Tunis</p>
+
+          &nbsp;
+          <a href="#reviews" class="link-reset">      <div class="star-rating">
+        <div class="foreground">
+                  {%include 'realEstateBundle:Offre:vote.html.twig'}
+
+        
+
+        </div>
+        <div class="background">
+          
+        </div>
+      </div>
+(<span itemprop="reviewCount">{{entity.NBNote}}</span>)</a>
+      </div>
+
+      
+
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-3 text-muted text-center hide-sm">
+      <a href="#host-profile" class="link-reset text-wrap">Steve &amp; Alison</a>
+    </div>
+
+   
+
+  </div>
+</div>
+
+        </div>
+        
+        <div class="col-lg-4">
+          
+<form accept-charset="UTF-8" action="https://www.airbnb.fr/payments/book?hosting_id=439714" class="info new-o2-form-inline" id="book_it_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="V4$.airbnb.fr$QN0wtDxmjvE$ABJDUnGhHWqzX8KbfvNkhPC_bVNa0Eo40R-UJrX3Jms=" /></div>
+
+  <div id="book_it">
+   
+            
+<div id="pf-pic-prompt-container" class="hide row-space-top-2">
+
+  <div class="signup-or-separator">
+    <h6 class="signup-or-separator--text">ou</h6>
+    <hr>
+  </div>
+
+  <div class="pf-pic-prompt text-center">
+    <a href='#' class='profile-pic-upsell-launcher'>Ajoutez une photo</a> pour faire une réservation instantanée de ce logement.
+
+    <i class="icon icon-question" data-behavior="tooltip" data-position="bottom"
+       title="La réservation instantanée vous permet de réserver un logement aussitôt, sans avoir à attendre la confirmation de l'hôte."></i>
+  </div>
+</div>
+
+          </div>
+
+          <div id="book_it_disabled" class="text-center hide">
+            <p id="book_it_disabled_message" class="icon-rausch">
+              Ce logement n'est pas disponible.
+            </p>
+            <a href="" class="btn btn-large btn-block" id="view_other_listings_button">
+              Voir d'autres annonces
+            </a>
+          </div>
+        </div>
+
+        <div id="book-it-urgency-commitment" data-host-name="Steve &amp; Alison">
+          <div data-hook="visitor-count-simple"
+               class="row row-space-top-3 hide">
+            <div class="col-10 col-center">
+              <div data-hook="visitor-count-simple-content"
+                   class="text-center text-muted">
+              </div>
+            </div>
+          </div>
+          <div data-hook="urgency-tooltip"
+               class="tooltip tooltip-layout tooltip-top-middle tooltip-no-border tooltip-light-beach row-space-top-4 hide">
+            <div class="panel-body">
+              <div class="media">
+                <i class="icon icon-hourglass-color pull-left"></i>
+                <div class="media-body" data-hook="urgency-tooltip-content">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        </div>
+
+        <div class="other-actions hide-sm text-center">
+          <div class="social-share-widget row-space-top-3">
+  <span class="share-title">
+    Partagez :
+  </span>
+  <span class="share-triggers">
+
+      <a class="share-btn"
+         data-email-share-link="/rooms/439714/email_listing"
+         data-network="email"
+         rel="nofollow"
+         title="E-mail"
+         href="#">
+        <i class="icon icon-envelope icon-gray social-icon-size"></i>
+      </a>
+
+
+
+
+      <a class="share-btn"
+         data-network="facebook"
+         rel="nofollow"
+         title="Facebook"
+         href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.airbnb.fr%2Frooms%2F439714%3Fs%3D3"
+         target="_blank">
+         <i class="icon icon-facebook icon-gray social-icon-size"></i>
+      </a>
+
+      <a class="share-btn"
+         data-network="twitter"
+         rel="nofollow"
+         title="Twitter"
+         href="https://twitter.com/intent/tweet?source=tweetbutton&text=J%27adore+%21+%22In+the+Foothills+of+the+Berkshires+%C3%A0+Kent%22+%40airbnb+%23Travel&url=https%3A%2F%2Fwww.airbnb.fr%2Frooms%2F439714%3Fs%3D4&related=airbnb"
+         target="_blank">
+        <i class="icon icon-twitter icon-gray social-icon-size"></i>
+      </a>
+
+      <a class="share-btn embedly-btn link-reset text-muted"
+         data-network="embedly"
+         data-embedly-locale="fr"
+         rel="nofollow"
+         title="Intégrer cette annonce"
+         href="#">
+        <i class="icon icon-code icon-gray social-icon-size"></i>
+      </a>
+
+      <a class="share-btn"
+         data-network="googlePlus"
+         rel="nofollow"
+         title="Google+"
+         href="https://plus.google.com/share?url=https%3A%2F%2Fwww.airbnb.fr%2Frooms%2F439714%3Fs%3D19"
+         target="_blank">
+        <i class="icon icon-google-plus icon-gray social-icon-size"></i>
+      </a>
+
+      <a class="share-btn"
+         data-network="pinterest"
+         rel="nofollow"
+         title="Pinterest"
+         href="//www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.airbnb.fr%2Frooms%2F439714%3Fs%3D16&media=https%3A%2F%2Fa1.muscache.com%2Fic%2Fpictures%2F19184475%2Ffe05902b_original.jpg%3Finterpolation%3Dlanczos-none%26size%3Dx_medium%26output-format%3Djpg%26output-quality%3D70&description=Regardez+ce+logement+incroyable+sur+Airbnb+%3A+In+the+Foothills+of+the+Berkshires+%C3%A0+Kent"
+         target="_blank">
+        <i class="icon icon-pinterest icon-gray social-icon-size"></i>
+      </a>
+
+    <span class="hide more-btn">
+      ···
+    </span>
+  </span>
+  <ul role="tooltip"
+    aria-hidden="true"
+    data-trigger=".more-btn"
+    data-event="hover"
+    data-sticky="true"
+    class="tooltip tooltip-top-middle list-unstyled more-social-options"
+    id="social-share-tooltip">
+  </ul>
+</div>
+
+          <div class="flag-trigger row-space-top-1 hide">
+            <a href="#" id="flag-for-listing-439714"
+              class="link-reset text-muted">
+              <i class="icon icon-flag h4"></i>
+              Signaler cette annonce
+            </a>
+            <div class="already-flagged text-muted row-space-top-2 hide">
+  Vous avez signalé ce logement.
+      <a href='#' class='undo_flag'>
+        Annuler ?
+      </a>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cancellation-grace-period-container hide">
+      <div class="panel-body">
+        <div class="media va-container">
+          <i class="pull-left icon icon-cancellation-policy va-top"></i>
+          <div class="media-body va-middle">
+            Si vous réservez 7 jours à l'avance, vous pouvez demander un remboursement intégral jusqu'à 24 heures après la réservation.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <input id="hosting_id" name="hosting_id" type="hidden" value="439714" />
+</form>
+<div class="mobile-bookit-btn-container panel-btn-sm panel-btn-fixed-sm hide">
+  <button id="book-it-sm-trigger" class="btn btn-primary btn-block btn-large">
+    Envoyer une demande
+  </button>
+</div>
+
+<span class="tooltip tooltip-top-middle"
+      role="tooltip"
+      data-trigger="#price-info-tooltip"
+      data-sticky="true"
+      aria-hidden="true">
+  <div id="monthly-breakdown"></div>
+</span>
+
+<span id="service-fee-tip"
+      class="tooltip tooltip-top-middle"
+      role="tooltip"
+      data-trigger="#service-fee-tooltip"
+      aria-hidden="true">
+  <p class="panel-body fee-no-vat-tooltip">
+    Il s'agit des frais facturés par Airbnb
+  </p>
+  <p class="panel-body hide fee-vat-tooltip">
+    Il s'agit des frais appliqués par Airbnb, TVA comprise.
+  </p>
+</span>
+
+<div id="tax-descriptions-tip"
+     class="tooltip tooltip-top-middle"
+     role="tooltip"
+     data-sticky="true"
+     data-trigger="#tax-descriptions-tooltip">
+</div>
+
+<div class="modal" role="dialog" aria-hidden="true" id="book-it-sm-modal">
+  <div class="modal-table">
+    <div class="modal-cell">
+      <div class="modal-content">
+        <div class="panel-header">
+          <a href="#" class="modal-close" data-behavior="modal-close"></a>
+          Envoyer une demande
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="details" class="details-section webkit-render-fix">
+    <div class="page-container-responsive">
+      <div class="row">
+        <div class="col-lg-8" id="details-column">
+          
+<div class="row-space-8 row-space-top-8">
+
+      <h4 class="row-space-4 text-center-sm">
+      À propos de ce logement
+    </h4>
+
+
+      <p id="edit-summary" class="row-space-2 hide">
+      <a href="#" data-href="/manage-listing/439714/overview">
+        Modifier le résumé
+</a>    </p>
+    <div class="panel panel-dark row-space-4">
+      <div class="panel-body">{{entity.description}}.</div>
+    </div>
+
+  <p class="text-center-sm">
+    <a id="contact-host-link" href="#">
+      <strong>Contacter l'hôte</strong>
+    </a>
+  </p>
+
+    <div class="row-space-4 row-space-top-4 inline-photo show-sm">
+    <a href="#" class="photo-trigger" data-index="1"><img alt="House and Studio" class="media-photo media-photo-block row-space-1 row-space-top-1 img-responsive" src="https://a2.muscache.com/ic/pictures/19184901/27133aea_original.jpg?interpolation=lanczos-none&amp;size=x_large&amp;output-format=progressive-jpeg&amp;output-quality=70" /></a>
+    <div class="row">
+      <div class="col-lg-9">
+          <p class="text-muted pull-left">House and Studio</p>
+      </div>
+      <div class="col-lg-3">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row-space-4 row-space-top-4 inline-photo">
+    <a href="#" class="photo-trigger" data-index="1"><img class="media-photo media-photo-block row-space-1 row-space-top-1 img-responsive" src="{{entity.urlImage}}?interpolation=lanczos-none&amp;size=x_large&amp;output-format=progressive-jpeg&amp;output-quality=70"></a>
+    <div class="row">
+      <div class="col-lg-9">
+          <p class="text-muted pull-left">airy, open kitchen</p>
+      </div>
+      <div class="col-lg-3">
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+
+    <div class="row">
+      <div class="col-md-3">
+            <div class="text-muted">
+      Le logement
+    </div>
+
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+            <div class="col-md-6">
+                  <div>surface : <strong>{{entity.surface}}</strong></div>
+                  <div>Type de propriété : <strong>{{entity.typeimmob}}</strong></div>
+                  <div>jardin : <strong>{%if entity.jardin==0%}Non{%endif%}{%if entity.jardin==1%}Oui{%endif%}</strong></div>
+                  <div>Chambres : <strong>{{entity.nbrPiece}}</strong></div>
+            </div>
+            <div class="col-md-6">
+                  <div>entrée indépendant : <strong>{%if entity.entreeIndep==0%}Non{%endif%}
+                  {%if entity.entreeIndep==1%}Oui{%endif%}</strong></div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+
+  <div class="row amenities">
+  <div class="col-md-3 text-muted">
+    Équipements
+  </div>
+
+
+    <div class="col-md-9 expandable expandable-trigger-more">
+      <div class="expandable-content-summary">
+        <div class="row">
+
+        
+            <div class="col-sm-6">
+            {%if entity.cuisineEquipe==1%}
+                <div class="row-space-1">
+                  <i class="icon h3 icon-meal"></i>
+                  &nbsp;
+                  <span id="amenity-short-tooltip-trigger-8">
+                    Cuisine équipée
+                  </span>
+                </div>
+             {%endif%}
+
+
+
+                {%if entity.gazDeVille==1%}
+                    <div class="row-space-1">
+                      <i class="icon h3 icon-internet"></i>
+                      &nbsp;
+                      <span id="amenity-short-tooltip-trigger-3">
+                        Gaz de ville
+                      </span>
+                    </div>
+                {%endif%}  
+
+              {%if entity.meuble==0%}
+                    <div class="row-space-1">
+                      <i class="icon h3 icon-double-bed"></i>
+                      &nbsp;
+                      <span id="amenity-short-tooltip-trigger-3">
+                        meuble
+                      </span>
+                    </div>
+              {%endif%}                       
+
+            </div>
+
+            <div class="col-sm-6">
+                {%if entity.chauffage==1%}
+                    <div class="row-space-1">
+                      <i class="icon h3 icon-heating"></i>
+                      &nbsp;
+                      <span id="amenity-short-tooltip-trigger-30">
+                        Chauffage
+                      </span>
+                    </div>
+                {%endif%}
+                      
+                {%if entity.climatisation==1%}
+                    <div class="row-space-1">
+                      <i class="icon h3 icon-air-conditioning"></i>
+                      &nbsp;
+                      <span id="amenity-short-tooltip-trigger-5">
+                        Climatisation
+                      </span>
+                    </div>
+                {%endif%}
+            </div>
+            
+    </div>
+
+
+</div>
+
+</div>
+</div>
+<hr>
+
+
+
+    <div class="row">
+      <div class="col-md-3">
+            <div class="text-muted">
+      Prix
+    </div>
+
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+            <div class="col-md-6">
+                <div><strong>{{entity.payement}} Euro</strong></div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+
+
+    </div>
+  </div>
+
+
+
+    <div id="gmap-preload" class="hide"></div>
+    <!--[if lt IE 9]>
+      <script src="https://a0.muscache.com/airbnb/static/packages/libs_jquery_1x-39cf57d7094331dece0901a673582d68.js" type="text/javascript"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+      <script src="https://a0.muscache.com/airbnb/static/packages/libs_jquery_2x-d1d044282823177ce96ce5f9f96896ae.js" type="text/javascript"></script>
+    <!--<![endif]-->
+    <script src="https://a0.muscache.com/airbnb/static/packages/o2.1-032e4d142bfba16b9e35e9de3160c666.js" type="text/javascript"></script>
+    <script src="https://a0.muscache.com/airbnb/static/packages/core-7e1c42b184ebb81855796d4de8cc0382.js" type="text/javascript"></script>
+
+    <script>
+
+      Airbnb.init();
+</script>
+
+    <div id="fb-root"></div>
+
+    
+    <script src="https://a0.muscache.com/airbnb/static/packages/p3_template_manifest-caefceeee64eb2fa45d243a4b018fcd4.js" type="text/javascript"></script><script src="https://a0.muscache.com/airbnb/static/packages/p3.bundle-cfd5d1d85844e464db69843eff4be088.js" type="text/javascript"></script>
+    
+  <div class="modal" role="dialog" aria-hidden="true" id="contact-modal">
+    <div class="modal-table">
+      <div class="modal-cell">
+        <div class="modal-content">
+          <div style="height:300px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </body>
+</html>
+<!-- ver. a5eaa42bde807b81d755e474333e5b4df42f23d1 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
+";}i:1;a:2:{i:0;s:6:"string";i:1;s:37:"realEstateBundle:Offre:show.html.twig";}}}i:6;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:16:"Twig_Environment";s:5:"class";s:16:"Twig_Environment";s:4:"type";s:2:"->";s:8:"function";s:12:"loadTemplate";s:4:"file";s:86:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Bridge/Twig/TwigEngine.php";s:4:"line";i:126;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:37:"realEstateBundle:Offre:show.html.twig";}}}i:7;a:8:{s:9:"namespace";s:19:"Symfony\Bridge\Twig";s:11:"short_class";s:10:"TwigEngine";s:5:"class";s:30:"Symfony\Bridge\Twig\TwigEngine";s:4:"type";s:2:"->";s:8:"function";s:4:"load";s:4:"file";s:86:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Bridge/Twig/TwigEngine.php";s:4:"line";i:50;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:37:"realEstateBundle:Offre:show.html.twig";}}}i:8;a:8:{s:9:"namespace";s:19:"Symfony\Bridge\Twig";s:11:"short_class";s:10:"TwigEngine";s:5:"class";s:30:"Symfony\Bridge\Twig\TwigEngine";s:4:"type";s:2:"->";s:8:"function";s:6:"render";s:4:"file";s:92:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/TwigEngine.php";s:4:"line";i:67;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:37:"realEstateBundle:Offre:show.html.twig";}i:1;a:2:{i:0;s:5:"array";i:1;a:2:{s:6:"entity";a:2:{i:0;s:6:"object";i:1;s:37:"sprint2\realEstateBundle\Entity\Offre";}s:11:"delete_form";a:2:{i:0;s:6:"object";i:1;s:31:"Symfony\Component\Form\FormView";}}}}}i:9;a:8:{s:9:"namespace";s:25:"Symfony\Bundle\TwigBundle";s:11:"short_class";s:10:"TwigEngine";s:5:"class";s:36:"Symfony\Bundle\TwigBundle\TwigEngine";s:4:"type";s:2:"->";s:8:"function";s:6:"render";s:4:"file";s:103:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Debug/TimedTwigEngine.php";s:4:"line";i:50;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:37:"realEstateBundle:Offre:show.html.twig";}i:1;a:2:{i:0;s:5:"array";i:1;a:2:{s:6:"entity";a:2:{i:0;s:6:"object";i:1;s:37:"sprint2\realEstateBundle\Entity\Offre";}s:11:"delete_form";a:2:{i:0;s:6:"object";i:1;s:31:"Symfony\Component\Form\FormView";}}}}}i:10;a:8:{s:9:"namespace";s:31:"Symfony\Bundle\TwigBundle\Debug";s:11:"short_class";s:15:"TimedTwigEngine";s:5:"class";s:47:"Symfony\Bundle\TwigBundle\Debug\TimedTwigEngine";s:4:"type";s:2:"->";s:8:"function";s:6:"render";s:4:"file";s:92:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/TwigEngine.php";s:4:"line";i:92;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:37:"realEstateBundle:Offre:show.html.twig";}i:1;a:2:{i:0;s:5:"array";i:1;a:2:{s:6:"entity";a:2:{i:0;s:6:"object";i:1;s:37:"sprint2\realEstateBundle\Entity\Offre";}s:11:"delete_form";a:2:{i:0;s:6:"object";i:1;s:31:"Symfony\Component\Form\FormView";}}}}}i:11;a:8:{s:9:"namespace";s:25:"Symfony\Bundle\TwigBundle";s:11:"short_class";s:10:"TwigEngine";s:5:"class";s:36:"Symfony\Bundle\TwigBundle\TwigEngine";s:4:"type";s:2:"->";s:8:"function";s:14:"renderResponse";s:4:"file";s:108:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Controller/Controller.php";s:4:"line";i:175;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"string";i:1;s:37:"realEstateBundle:Offre:show.html.twig";}i:1;a:2:{i:0;s:5:"array";i:1;a:2:{s:6:"entity";a:2:{i:0;s:6:"object";i:1;s:37:"sprint2\realEstateBundle\Entity\Offre";}s:11:"delete_form";a:2:{i:0;s:6:"object";i:1;s:31:"Symfony\Component\Form\FormView";}}}i:2;a:2:{i:0;s:4:"null";i:1;N;}}}i:12;a:8:{s:9:"namespace";s:41:"Symfony\Bundle\FrameworkBundle\Controller";s:11:"short_class";s:10:"Controller";s:5:"class";s:52:"Symfony\Bundle\FrameworkBundle\Controller\Controller";s:4:"type";s:2:"->";s:8:"function";s:6:"render";s:4:"file";s:84:"/home/haddada/realEstate/src/sprint2/realEstateBundle/Controller/OffreController.php";s:4:"line";i:171;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:37:"realEstateBundle:Offre:show.html.twig";}i:1;a:2:{i:0;s:5:"array";i:1;a:2:{s:6:"entity";a:2:{i:0;s:6:"object";i:1;s:37:"sprint2\realEstateBundle\Entity\Offre";}s:11:"delete_form";a:2:{i:0;s:6:"object";i:1;s:31:"Symfony\Component\Form\FormView";}}}}}i:13;a:8:{s:9:"namespace";s:35:"sprint2\realEstateBundle\Controller";s:11:"short_class";s:15:"OffreController";s:5:"class";s:51:"sprint2\realEstateBundle\Controller\OffreController";s:4:"type";s:2:"->";s:8:"function";s:10:"showAction";s:4:"file";N;s:4:"line";N;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:2:"11";}}}i:14;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:0:"";s:5:"class";s:0:"";s:4:"type";s:0:"";s:8:"function";s:20:"call_user_func_array";s:4:"file";s:48:"/home/haddada/realEstate/app/bootstrap.php.cache";s:4:"line";i:3022;s:4:"args";a:2:{i:0;a:2:{i:0;s:5:"array";i:1;a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:51:"sprint2\realEstateBundle\Controller\OffreController";}i:1;a:2:{i:0;s:6:"string";i:1;s:10:"showAction";}}}i:1;a:2:{i:0;s:5:"array";i:1;a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:2:"11";}}}}}i:15;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:10:"HttpKernel";s:5:"class";s:39:"Symfony\Component\HttpKernel\HttpKernel";s:4:"type";s:2:"->";s:8:"function";s:9:"handleRaw";s:4:"file";s:48:"/home/haddada/realEstate/app/bootstrap.php.cache";s:4:"line";i:2984;s:4:"args";a:2:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}}}i:16;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:10:"HttpKernel";s:5:"class";s:39:"Symfony\Component\HttpKernel\HttpKernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:48:"/home/haddada/realEstate/app/bootstrap.php.cache";s:4:"line";i:3133;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}i:2;a:2:{i:0;s:7:"boolean";i:1;b:1;}}}i:17;a:8:{s:9:"namespace";s:48:"Symfony\Component\HttpKernel\DependencyInjection";s:11:"short_class";s:24:"ContainerAwareHttpKernel";s:5:"class";s:73:"Symfony\Component\HttpKernel\DependencyInjection\ContainerAwareHttpKernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:48:"/home/haddada/realEstate/app/bootstrap.php.cache";s:4:"line";i:2377;s:4:"args";a:3:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}i:1;a:2:{i:0;s:6:"string";i:1;s:1:"1";}i:2;a:2:{i:0;s:7:"boolean";i:1;b:1;}}}i:18;a:8:{s:9:"namespace";s:28:"Symfony\Component\HttpKernel";s:11:"short_class";s:6:"Kernel";s:5:"class";s:35:"Symfony\Component\HttpKernel\Kernel";s:4:"type";s:2:"->";s:8:"function";s:6:"handle";s:4:"file";s:40:"/home/haddada/realEstate/web/app_dev.php";s:4:"line";i:28;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"object";i:1;s:40:"Symfony\Component\HttpFoundation\Request";}}}i:19;a:8:{s:9:"namespace";s:0:"";s:11:"short_class";s:0:"";s:5:"class";s:0:"";s:4:"type";s:0:"";s:8:"function";s:7:"require";s:4:"file";s:114:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/router_dev.php";s:4:"line";i:31;s:4:"args";a:1:{i:0;a:2:{i:0;s:6:"string";i:1;s:40:"/home/haddada/realEstate/web/app_dev.php";}}}}s:57:" Symfony\Component\Debug\Exception\FlattenException class";s:17:"Twig_Error_Syntax";s:62:" Symfony\Component\Debug\Exception\FlattenException statusCode";i:500;s:59:" Symfony\Component\Debug\Exception\FlattenException headers";a:0:{}s:56:" Symfony\Component\Debug\Exception\FlattenException file";s:60:"/home/haddada/realEstate/vendor/twig/twig/lib/Twig/Lexer.php";s:56:" Symfony\Component\Debug\Exception\FlattenException line";i:259;s:64:" Symfony\Component\HttpKernel\Exception\FlattenException handler";N;}}}s:6:"events";C:61:"Symfony\Component\HttpKernel\DataCollector\EventDataCollector":20009:{a:2:{s:16:"called_listeners";a:31:{s:90:"kernel.request.Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:64:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener";s:6:"method";s:9:"configure";s:4:"file";s:120:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/DebugHandlersListener.php";s:4:"line";i:63;s:6:"pretty";s:75:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure";}s:91:"kernel.request.Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:115:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/ProfilerListener.php";s:4:"line";i:78;s:6:"pretty";s:76:"Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest";}s:81:"kernel.request.Symfony\Component\HttpKernel\EventListener\DumpListener::configure";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:55:"Symfony\Component\HttpKernel\EventListener\DumpListener";s:6:"method";s:9:"configure";s:4:"file";s:111:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/DumpListener.php";s:4:"line";i:40;s:6:"pretty";s:66:"Symfony\Component\HttpKernel\EventListener\DumpListener::configure";}s:92:"kernel.request.Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:60:"Symfony\Bundle\FrameworkBundle\EventListener\SessionListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:50:"/home/haddada/realEstate/app/cache/dev/classes.php";s:4:"line";i:16;s:6:"pretty";s:77:"Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest";}s:91:"kernel.request.Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\FragmentListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:115:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/FragmentListener.php";s:4:"line";i:56;s:6:"pretty";s:76:"Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest";}s:89:"kernel.request.Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:50:"/home/haddada/realEstate/app/cache/dev/classes.php";s:4:"line";i:1990;s:6:"pretty";s:74:"Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest";}s:89:"kernel.request.Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\LocaleListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:113:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/LocaleListener.php";s:4:"line";i:69;s:6:"pretty";s:74:"Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest";}s:93:"kernel.request.Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:61:"Symfony\Component\HttpKernel\EventListener\TranslatorListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:117:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/TranslatorListener.php";s:4:"line";i:38;s:6:"pretty";s:78:"Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelRequest";}s:72:"kernel.request.Symfony\Component\Security\Http\Firewall::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:40:"Symfony\Component\Security\Http\Firewall";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:50:"/home/haddada/realEstate/app/cache/dev/classes.php";s:4:"line";i:2496;s:6:"pretty";s:57:"Symfony\Component\Security\Http\Firewall::onKernelRequest";}s:90:"kernel.request.Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest";a:7:{s:5:"event";s:14:"kernel.request";s:4:"type";s:6:"Method";s:5:"class";s:58:"Symfony\Bundle\AsseticBundle\EventListener\RequestListener";s:6:"method";s:15:"onKernelRequest";s:4:"file";s:88:"/home/haddada/realEstate/vendor/symfony/assetic-bundle/EventListener/RequestListener.php";s:4:"line";i:23;s:6:"pretty";s:75:"Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest";}s:102:"kernel.controller.Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:64:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector";s:6:"method";s:18:"onKernelController";s:4:"file";s:118:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/RouterDataCollector.php";s:4:"line";i:66;s:6:"pretty";s:84:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController";}s:86:"kernel.controller.Acme\DemoBundle\EventListener\ControllerListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:48:"Acme\DemoBundle\EventListener\ControllerListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:81:"/home/haddada/realEstate/src/Acme/DemoBundle/EventListener/ControllerListener.php";s:4:"line";i:18;s:6:"pretty";s:68:"Acme\DemoBundle\EventListener\ControllerListener::onKernelController";}s:101:"kernel.controller.Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:63:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector";s:6:"method";s:18:"onKernelController";s:4:"file";s:119:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/DataCollector/RequestDataCollector.php";s:4:"line";i:284;s:6:"pretty";s:83:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController";}s:105:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:67:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:50:"/home/haddada/realEstate/app/cache/dev/classes.php";s:4:"line";i:6863;s:6:"pretty";s:87:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController";}s:109:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:71:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:50:"/home/haddada/realEstate/app/cache/dev/classes.php";s:4:"line";i:6934;s:6:"pretty";s:91:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController";}s:104:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:66:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:50:"/home/haddada/realEstate/app/cache/dev/classes.php";s:4:"line";i:7352;s:6:"pretty";s:86:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController";}s:103:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:50:"/home/haddada/realEstate/app/cache/dev/classes.php";s:4:"line";i:7469;s:6:"pretty";s:85:"Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController";}s:103:"kernel.controller.Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController";a:7:{s:5:"event";s:17:"kernel.controller";s:4:"type";s:6:"Method";s:5:"class";s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener";s:6:"method";s:18:"onKernelController";s:4:"file";s:50:"/home/haddada/realEstate/app/cache/dev/classes.php";s:4:"line";i:7268;s:6:"pretty";s:85:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController";}s:93:"kernel.response.Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:50:"/home/haddada/realEstate/app/cache/dev/classes.php";s:4:"line";i:1921;s:6:"pretty";s:77:"Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse";}s:93:"kernel.response.Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\Security\Http\RememberMe\ResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:115:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/Security/Http/RememberMe/ResponseListener.php";s:4:"line";i:28;s:6:"pretty";s:77:"Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse";}s:100:"kernel.response.Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:66:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:50:"/home/haddada/realEstate/app/cache/dev/classes.php";s:4:"line";i:7382;s:6:"pretty";s:84:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse";}s:93:"kernel.response.Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:115:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/ProfilerListener.php";s:4:"line";i:90;s:6:"pretty";s:77:"Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse";}s:104:"kernel.response.Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:70:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:126:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/EventListener/WebDebugToolbarListener.php";s:4:"line";i:58;s:6:"pretty";s:88:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse";}s:96:"kernel.response.Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:62:"Symfony\Component\HttpKernel\EventListener\SaveSessionListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:118:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/SaveSessionListener.php";s:4:"line";i:47;s:6:"pretty";s:80:"Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse";}s:101:"kernel.response.Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse";a:7:{s:5:"event";s:15:"kernel.response";s:4:"type";s:6:"Method";s:5:"class";s:67:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener";s:6:"method";s:16:"onKernelResponse";s:4:"file";s:123:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/StreamedResponseListener.php";s:4:"line";i:32;s:6:"pretty";s:85:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse";}s:102:"kernel.finish_request.Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\LocaleListener";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:113:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/LocaleListener.php";s:4:"line";i:78;s:6:"pretty";s:80:"Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest";}s:106:"kernel.finish_request.Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:61:"Symfony\Component\HttpKernel\EventListener\TranslatorListener";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:117:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/TranslatorListener.php";s:4:"line";i:43;s:6:"pretty";s:84:"Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelFinishRequest";}s:102:"kernel.finish_request.Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:50:"/home/haddada/realEstate/app/cache/dev/classes.php";s:4:"line";i:1984;s:6:"pretty";s:80:"Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest";}s:85:"kernel.finish_request.Symfony\Component\Security\Http\Firewall::onKernelFinishRequest";a:7:{s:5:"event";s:21:"kernel.finish_request";s:4:"type";s:6:"Method";s:5:"class";s:40:"Symfony\Component\Security\Http\Firewall";s:6:"method";s:21:"onKernelFinishRequest";s:4:"file";s:50:"/home/haddada/realEstate/app/cache/dev/classes.php";s:4:"line";i:2513;s:6:"pretty";s:63:"Symfony\Component\Security\Http\Firewall::onKernelFinishRequest";}s:95:"kernel.exception.Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException";a:7:{s:5:"event";s:16:"kernel.exception";s:4:"type";s:6:"Method";s:5:"class";s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";s:6:"method";s:17:"onKernelException";s:4:"file";s:115:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/ProfilerListener.php";s:4:"line";i:66;s:6:"pretty";s:78:"Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException";}s:96:"kernel.exception.Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException";a:7:{s:5:"event";s:16:"kernel.exception";s:4:"type";s:6:"Method";s:5:"class";s:60:"Symfony\Component\HttpKernel\EventListener\ExceptionListener";s:6:"method";s:17:"onKernelException";s:4:"file";s:116:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/ExceptionListener.php";s:4:"line";i:40;s:6:"pretty";s:79:"Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException";}}s:20:"not_called_listeners";a:8:{s:82:"kernel.terminate.Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke";a:7:{s:5:"event";s:16:"kernel.terminate";s:4:"type";s:6:"Method";s:5:"class";s:55:"Symfony\Component\EventDispatcher\Debug\WrappedListener";s:6:"method";s:8:"__invoke";s:4:"file";s:111:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php";s:4:"line";i:55;s:6:"pretty";s:65:"Symfony\Component\EventDispatcher\Debug\WrappedListener::__invoke";}s:91:"console.command.Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure";a:7:{s:5:"event";s:15:"console.command";s:4:"type";s:6:"Method";s:5:"class";s:64:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener";s:6:"method";s:9:"configure";s:4:"file";s:120:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/EventListener/DebugHandlersListener.php";s:4:"line";i:63;s:6:"pretty";s:75:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure";}s:72:"console.command.Symfony\Bridge\Monolog\Handler\ConsoleHandler::onCommand";a:7:{s:5:"event";s:15:"console.command";s:4:"type";s:6:"Method";s:5:"class";s:45:"Symfony\Bridge\Monolog\Handler\ConsoleHandler";s:6:"method";s:9:"onCommand";s:4:"file";s:101:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Bridge/Monolog/Handler/ConsoleHandler.php";s:4:"line";i:121;s:6:"pretty";s:56:"Symfony\Bridge\Monolog\Handler\ConsoleHandler::onCommand";}s:97:"console.terminate.Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onTerminate";a:7:{s:5:"event";s:17:"console.terminate";s:4:"type";s:6:"Method";s:5:"class";s:66:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener";s:6:"method";s:11:"onTerminate";s:4:"file";s:96:"/home/haddada/realEstate/vendor/symfony/swiftmailer-bundle/EventListener/EmailSenderListener.php";s:4:"line";i:46;s:6:"pretty";s:79:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener::onTerminate";}s:76:"console.terminate.Symfony\Bridge\Monolog\Handler\ConsoleHandler::onTerminate";a:7:{s:5:"event";s:17:"console.terminate";s:4:"type";s:6:"Method";s:5:"class";s:45:"Symfony\Bridge\Monolog\Handler\ConsoleHandler";s:6:"method";s:11:"onTerminate";s:4:"file";s:101:"/home/haddada/realEstate/vendor/symfony/symfony/src/Symfony/Bridge/Monolog/Handler/ConsoleHandler.php";s:4:"line";i:131;s:6:"pretty";s:58:"Symfony\Bridge\Monolog\Handler\ConsoleHandler::onTerminate";}s:91:"kernel.view.Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelView";a:7:{s:5:"event";s:11:"kernel.view";s:4:"type";s:6:"Method";s:5:"class";s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener";s:6:"method";s:12:"onKernelView";s:4:"file";s:50:"/home/haddada/realEstate/app/cache/dev/classes.php";s:4:"line";i:7293;s:6:"pretty";s:79:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelView";}s:113:"dcs_rating.event.rating.pre_persist.DCS\RatingBundle\EventListener\RatingUpdateInfoEventListener::updatePermalink";a:7:{s:5:"event";s:35:"dcs_rating.event.rating.pre_persist";s:4:"type";s:6:"Method";s:5:"class";s:60:"DCS\RatingBundle\EventListener\RatingUpdateInfoEventListener";s:6:"method";s:15:"updatePermalink";s:4:"file";s:124:"/home/haddada/realEstate/vendor/damianociarla/rating-bundle/DCS/RatingBundle/EventListener/RatingUpdateInfoEventListener.php";s:4:"line";i:35;s:6:"pretty";s:77:"DCS\RatingBundle\EventListener\RatingUpdateInfoEventListener::updatePermalink";}s:109:"dcs_rating.event.vote.post_persist.DCS\RatingBundle\EventListener\RatingUpdateRateEventListener::onCreateVote";a:7:{s:5:"event";s:34:"dcs_rating.event.vote.post_persist";s:4:"type";s:6:"Method";s:5:"class";s:60:"DCS\RatingBundle\EventListener\RatingUpdateRateEventListener";s:6:"method";s:12:"onCreateVote";s:4:"file";s:124:"/home/haddada/realEstate/vendor/damianociarla/rating-bundle/DCS/RatingBundle/EventListener/RatingUpdateRateEventListener.php";s:4:"line";i:29;s:6:"pretty";s:74:"DCS\RatingBundle\EventListener\RatingUpdateRateEventListener::onCreateVote";}}}}s:6:"logger";C:62:"Symfony\Component\HttpKernel\DataCollector\LoggerDataCollector":17937:{a:5:{s:11:"error_count";i:1;s:17:"deprecation_count";i:0;s:12:"scream_count";i:0;s:10:"priorities";a:3:{i:100;a:2:{s:5:"count";i:62;s:4:"name";s:5:"DEBUG";}i:200;a:2:{s:5:"count";i:1;s:4:"name";s:4:"INFO";}i:500;a:2:{s:5:"count";i:1;s:4:"name";s:8:"CRITICAL";}}s:4:"logs";a:64:{i:0;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:157:"Matched route "offre_show" (parameters: "_controller": "sprint2\realEstateBundle\Controller\OffreController::showAction", "id": "11", "_route": "offre_show")";s:8:"priority";i:200;s:12:"priorityName";s:4:"INFO";s:7:"context";a:0:{}}i:1;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:2;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:3;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:113:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DumpListener::configure".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:4;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:5;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:6;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:7;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:8;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:125:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:9;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:104:"Notified event "kernel.request" to listener "Symfony\Component\Security\Http\Firewall::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:10;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:11;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:134:"Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:12;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:118:"Notified event "kernel.controller" to listener "Acme\DemoBundle\EventListener\ControllerListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:13;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:133:"Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:14;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:137:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:15;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:141:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:16;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:136:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:17;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:18;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:19;a:5:{s:9:"timestamp";i:1428276247;s:7:"message";s:770:"SELECT t0.id AS id1, t0.id_gerant AS id_gerant2, t0.etat AS etat3, t0.typeImmob AS typeImmob4, t0.nature AS nature5, t0.payement AS payement6, t0.surface AS surface7, t0.nbrPiece AS nbrPiece8, t0.datePublication AS datePublication9, t0.dateModification AS dateModification10, t0.dispobileAPartir AS dispobileAPartir11, t0.description AS description12, t0.etage AS etage13, t0.ascenceur AS ascenceur14, t0.cuisineEquipe AS cuisineEquipe15, t0.jardin AS jardin16, t0.entreeIndep AS entreeIndep17, t0.gazDeVille AS gazDeVille18, t0.chauffage AS chauffage19, t0.meuble AS meuble20, t0.climatisation AS climatisation21, t0.note AS note22, t0.NBNote AS NBNote23, t0.UrlImage AS UrlImage24, t0.position AS position25, t0.id_adresse AS id_adresse26 FROM offre t0 WHERE t0.id = ?";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:1:{i:0;s:2:"11";}}i:20;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:186:"Uncaught PHP Exception Twig_Error_Syntax: "Unexpected "}" in "realEstateBundle:Offre:show.html.twig" at line 478" at /home/haddada/realEstate/vendor/twig/twig/lib/Twig/Lexer.php line 259";s:8:"priority";i:500;s:12:"priorityName";s:8:"CRITICAL";s:7:"context";a:1:{s:9:"exception";s:25:"Object(Twig_Error_Syntax)";}}i:21;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:22;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:23;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:113:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DumpListener::configure".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:24;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:124:"Notified event "kernel.request" to listener "Symfony\Bundle\FrameworkBundle\EventListener\SessionListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:25;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:123:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\FragmentListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:26;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:27;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:121:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:28;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:125:"Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:29;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:104:"Notified event "kernel.request" to listener "Symfony\Component\Security\Http\Firewall::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:30;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:122:"Notified event "kernel.request" to listener "Symfony\Bundle\AsseticBundle\EventListener\RequestListener::onKernelRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:31;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:134:"Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:32;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:118:"Notified event "kernel.controller" to listener "Acme\DemoBundle\EventListener\ControllerListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:33;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:133:"Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:34;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:137:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:35;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:141:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:36;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:136:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:37;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:38;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:135:"Notified event "kernel.controller" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener::onKernelController".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:39;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:40;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:41;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:132:"Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:42;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:43;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:136:"Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:44;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:128:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:45;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:133:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:46;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:47;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:138:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:48;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:49;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:117:"Notified event "kernel.finish_request" to listener "Symfony\Component\Security\Http\Firewall::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:50;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:127:"Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:51;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:128:"Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:52;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:143:"Listener "Symfony\Component\HttpKernel\EventListener\ExceptionListener::onKernelException" stopped propagation of the event "kernel.exception".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:53;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:54;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\Security\Http\RememberMe\ResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:55;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:132:"Notified event "kernel.response" to listener "Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:56;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:125:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:57;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:136:"Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:58;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:128:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SaveSessionListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:59;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:133:"Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:60;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:61;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:138:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\TranslatorListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:62;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:134:"Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}i:63;a:5:{s:9:"timestamp";i:1428276248;s:7:"message";s:117:"Notified event "kernel.finish_request" to listener "Symfony\Component\Security\Http\Firewall::onKernelFinishRequest".";s:8:"priority";i:100;s:12:"priorityName";s:5:"DEBUG";s:7:"context";a:0:{}}}}}s:4:"time";C:60:"Symfony\Component\HttpKernel\DataCollector\TimeDataCollector":26793:{a:2:{s:10:"start_time";d:1428276247960.0889;s:6:"events";a:38:{s:11:"__section__";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:255;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:259;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:268;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"default";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:14:"kernel.request";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2359296;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:64:"Symfony\Component\HttpKernel\EventListener\DebugHandlersListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:0;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2097152;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\ProfilerListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:4:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:0;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2097152;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:43;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:43;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:6029312;}i:2;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:253;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:253;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}i:3;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:259;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:268;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:55:"Symfony\Component\HttpKernel\EventListener\DumpListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:0;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2097152;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:60:"Symfony\Bundle\FrameworkBundle\EventListener\SessionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:0;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2359296;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\FragmentListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:0;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2359296;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:57:"Symfony\Component\HttpKernel\EventListener\RouterListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:0;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2359296;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:250;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:250;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:57:"Symfony\Component\HttpKernel\EventListener\LocaleListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2359296;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:250;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:250;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:61:"Symfony\Component\HttpKernel\EventListener\TranslatorListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2359296;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:250;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:250;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:40:"Symfony\Component\Security\Http\Firewall";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2359296;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:250;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:250;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:58:"Symfony\Bundle\AsseticBundle\EventListener\RequestListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:2;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:2;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2359296;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:23:"controller.get_callable";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:5;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:5;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2359296;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"default";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:17:"kernel.controller";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:8;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:9;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2621440;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:64:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:8;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:8;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2621440;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:48:"Acme\DemoBundle\EventListener\ControllerListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:8;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:8;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2621440;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:63:"Symfony\Component\HttpKernel\DataCollector\RequestDataCollector";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:8;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:8;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2621440;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:67:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ControllerListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:8;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:8;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2621440;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:71:"Sensio\Bundle\FrameworkExtraBundle\EventListener\ParamConverterListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:8;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:8;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2621440;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:66:"Sensio\Bundle\FrameworkExtraBundle\EventListener\HttpCacheListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:2:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:8;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:8;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2621440;}i:1;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:253;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:253;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\SecurityListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:8;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:8;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2621440;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:65:"Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:8;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:8;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2621440;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:10:"controller";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:9;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:253;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:24:"controller.get_arguments";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:11;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:11;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:2621440;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"default";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:8:"doctrine";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:21;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:22;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:3670016;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:8:"doctrine";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:53:"template.twig (realEstateBundle:Offre:show.html.twig)";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:37;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:268;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:8:"template";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:16:"kernel.exception";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:43;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:251;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:60:"Symfony\Component\HttpKernel\EventListener\ExceptionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:43;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:251;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:17:"__section__.child";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:44;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:247;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:21:"kernel.finish_request";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:250;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:250;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:15:"kernel.response";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:253;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:255;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\HttpKernel\EventListener\ResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:253;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:253;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:59:"Symfony\Component\Security\Http\RememberMe\ResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:253;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:253;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:70:"Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:253;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:255;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:62:"Symfony\Component\HttpKernel\EventListener\SaveSessionListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:255;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:255;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:67:"Symfony\Component\HttpKernel\EventListener\StreamedResponseListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:255;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:255;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:16:"kernel.terminate";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:259;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:269;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:7:"section";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}s:66:"Symfony\Bundle\SwiftmailerBundle\EventListener\EmailSenderListener";O:42:"Symfony\Component\Stopwatch\StopwatchEvent":4:{s:51:" Symfony\Component\Stopwatch\StopwatchEvent periods";a:1:{i:0;O:43:"Symfony\Component\Stopwatch\StopwatchPeriod":3:{s:50:" Symfony\Component\Stopwatch\StopwatchPeriod start";i:259;s:48:" Symfony\Component\Stopwatch\StopwatchPeriod end";i:259;s:51:" Symfony\Component\Stopwatch\StopwatchPeriod memory";i:8388608;}}s:50:" Symfony\Component\Stopwatch\StopwatchEvent origin";d:1428276247971;s:52:" Symfony\Component\Stopwatch\StopwatchEvent category";s:14:"event_listener";s:51:" Symfony\Component\Stopwatch\StopwatchEvent started";a:0:{}}}}}s:6:"memory";C:62:"Symfony\Component\HttpKernel\DataCollector\MemoryDataCollector":55:{a:2:{s:6:"memory";i:13369344;s:12:"memory_limit";i:-1;}}s:6:"router";C:64:"Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector":51:{a:3:{s:8:"redirect";b:0;s:3:"url";N;s:5:"route";N;}}s:8:"security";C:65:"Symfony\Bundle\SecurityBundle\DataCollector\SecurityDataCollector":106:{a:5:{s:7:"enabled";b:1;s:13:"authenticated";b:0;s:11:"token_class";N;s:4:"user";s:0:"";s:5:"roles";a:0:{}}}s:11:"swiftmailer";C:67:"Symfony\Bundle\SwiftmailerBundle\DataCollector\MessageDataCollector":77:{a:3:{s:6:"mailer";a:0:{}s:12:"messageCount";i:0;s:13:"defaultMailer";s:0:"";}}s:2:"db";C:66:"Doctrine\Bundle\DoctrineBundle\DataCollector\DoctrineDataCollector":1570:{a:6:{s:7:"queries";a:1:{s:7:"default";a:1:{i:1;a:5:{s:3:"sql";s:770:"SELECT t0.id AS id1, t0.id_gerant AS id_gerant2, t0.etat AS etat3, t0.typeImmob AS typeImmob4, t0.nature AS nature5, t0.payement AS payement6, t0.surface AS surface7, t0.nbrPiece AS nbrPiece8, t0.datePublication AS datePublication9, t0.dateModification AS dateModification10, t0.dispobileAPartir AS dispobileAPartir11, t0.description AS description12, t0.etage AS etage13, t0.ascenceur AS ascenceur14, t0.cuisineEquipe AS cuisineEquipe15, t0.jardin AS jardin16, t0.entreeIndep AS entreeIndep17, t0.gazDeVille AS gazDeVille18, t0.chauffage AS chauffage19, t0.meuble AS meuble20, t0.climatisation AS climatisation21, t0.note AS note22, t0.NBNote AS NBNote23, t0.UrlImage AS UrlImage24, t0.position AS position25, t0.id_adresse AS id_adresse26 FROM offre t0 WHERE t0.id = ?";s:6:"params";a:1:{i:0;s:2:"11";}s:5:"types";a:1:{i:0;i:1;}s:11:"executionMS";d:0.00033617019653320312;s:11:"explainable";b:1;}}}s:11:"connections";a:1:{s:7:"default";s:32:"doctrine.dbal.default_connection";}s:8:"managers";a:1:{s:7:"default";s:35:"doctrine.orm.default_entity_manager";}s:8:"entities";a:1:{s:7:"default";a:2:{s:37:"sprint2\realEstateBundle\Entity\Offre";s:37:"sprint2\realEstateBundle\Entity\Offre";s:39:"sprint2\realEstateBundle\Entity\Adresse";s:39:"sprint2\realEstateBundle\Entity\Adresse";}}s:6:"errors";a:0:{}s:6:"caches";a:4:{s:7:"enabled";b:0;s:11:"log_enabled";b:0;s:6:"counts";a:3:{s:4:"puts";i:0;s:4:"hits";i:0;s:6:"misses";i:0;}s:7:"regions";a:3:{s:4:"puts";a:0:{}s:4:"hits";a:0:{}s:6:"misses";a:0:{}}}}}s:4:"dump";C:60:"Symfony\Component\HttpKernel\DataCollector\DumpDataCollector":6:{a:0:{}}}s:2:"ip";s:9:"127.0.0.1";s:6:"method";s:3:"GET";s:3:"url";s:35:"http://localhost:8000/offre/11/show";s:4:"time";i:1428276248;}

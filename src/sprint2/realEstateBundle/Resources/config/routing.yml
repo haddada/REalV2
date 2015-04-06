@@ -1,0 +1,23 @@
+real_estate_adresse:
+    resource: "@realEstateBundle/Resources/config/routing/adresse.yml"
+    prefix:   /adresse
+
+real_estate_offre:
+    resource: "@realEstateBundle/Resources/config/routing/offre.yml"
+    prefix:   /offre
+real_estate_homepage:
+    path:     /
+    defaults: { _controller: realEstateBundle:Default:index }
+
+real_estate_admins:
+    path: /admins
+    defaults: { _controller:realEstateBundle:Administrateur:afficherAdmins }
+real_estate_ajoutAdmin:
+    path: /addAdmin
+    defaults: { _controller:realEstateBundle:Administrateur:ajouterAdmin }
+real_estate_dashboard:
+    path: /dashboard
+    defaults: { _controller:realEstateBundle:Administrateur:afficherAdmins }
+offre_search_ajax:
+    path: /search/search_results
+    defaults: { _controller: "realEstateBundle:Offre:searchAjax" }

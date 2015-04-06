@@ -1,0 +1,71 @@
+sprint2\RealEstate\AdminBundle\Entity\Utilisateur:
+    type: entity
+    table: utilisateur
+    id:
+        id:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        mail:
+            type: string
+            nullable: false
+            length: 50
+            fixed: false
+            comment: ''
+        password:
+            type: string
+            nullable: false
+            length: 200
+            fixed: false
+            comment: ''
+        nom:
+            type: string
+            nullable: false
+            length: 50
+            fixed: false
+            comment: ''
+        prenom:
+            type: string
+            nullable: false
+            length: 50
+            fixed: false
+            comment: ''
+        nummobile:
+            type: string
+            nullable: true
+            length: 15
+            fixed: false
+            comment: ''
+            column: numMobile
+        numfix:
+            type: string
+            nullable: true
+            length: 15
+            fixed: false
+            comment: ''
+            column: numFix
+        statusMatrimonial:
+            type: string
+            nullable: true
+            length: 50
+            fixed: false
+            comment: ''
+            column: status_matrimonial
+        role:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+        urlp:
+            type: string
+            nullable: true
+            length: 200
+            fixed: false
+            comment: ''
+            column: URLp
+    lifecycleCallbacks: {  }

@@ -1,0 +1,58 @@
+sprint2\RealEstate\AdminBundle\Entity\Boitemessages:
+    type: entity
+    table: boitemessages
+    indexes:
+        id_destinataire:
+            columns:
+                - id_destinataire
+        id_expediteur:
+            columns:
+                - id_expediteur
+    id:
+        id:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        contenu:
+            type: string
+            nullable: false
+            length: 500
+            fixed: false
+            comment: ''
+        vu:
+            type: integer
+            nullable: true
+            unsigned: false
+            comment: ''
+            default: '0'
+        tempsEnvoi:
+            type: datetime
+            nullable: true
+            comment: ''
+            default: CURRENT_TIMESTAMP
+            column: temps_envoi
+    manyToOne:
+        idDestinataire:
+            targetEntity: Utilisateur
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_destinataire:
+                    referencedColumnName: id
+            orphanRemoval: false
+        idExpediteur:
+            targetEntity: Utilisateur
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_expediteur:
+                    referencedColumnName: id
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

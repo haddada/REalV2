@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="{{ asset('css/alertify.bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/alertify.core.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/alertify.default.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/login.css') }}">
+  
+
+    <!-- HTML5 Shim and Respond.js add IE8 support of HTML5 elements and media queries -->
+    {% include 'BraincraftedBootstrapBundle::ie8-support.html.twig' %}
+
+</head>
+
+<body>
+<div class="container">
+        <div class="wrapper">
+            <!--<h1>Connexion</h1>-->
+            <div class="content">
+                <div id="form_wrapper" class="form_wrapper">
+                    <form class="login active" action='<?php echo base_url(); ?>admin/' method='post'>
+                        <h3>Connexion</h3>
+                        <div>
+                            <label>Username:</label>
+                            <input type="text" name="login" required/>
+                        </div>
+                        <div>
+                            <label>Password:
+                            <!--<a href="forgot_password.html" rel="forgot_password" class="forgot linkform">
+                            Forgot your password?</a>--></label>
+                            <input type="password" name="pass" required/>
+                        </div>
+                        <div class="bottom">
+                            <div class="remember"><input type="checkbox" /><span>Keep me logged in</span></div>
+                            <input type="submit" value="Login">
+                            <!--<a href="register.html" rel="register" class="linkform">You don't have an account yet?
+                            Register here</a>-->
+                            <div class="clear"></div>
+                        </div>
+                    </form>
+                   <!-- <form class="forgot_password">
+                        <h3>Forgot Password</h3>
+                        <div>
+                            <label>Username or Email:</label>
+                            <input type="text" />
+                            <span class="error">This is an error</span>
+                        </div>
+                        <div class="bottom">
+                            <input type="submit" value="Send reminder">
+                            <!--<a href="index.html" rel="login" class="linkform">Suddenly remebered? Log in here</a>
+                            <div class="clear"></div>
+                        </div>
+                    </form>-->
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+
+        <!--<input type="text" class="form-control" placeholder="Login" name="login" required autofocus>
+        <input type="password" class="form-control" placeholder="Password" name="pass" required>
+
+        <label class="checkbox">
+            <input type="checkbox" value="remember-me">Remember me
+        </label>
+
+        <input type="submit" value="Sign in" class="btn btn-lg btn-primary btn-block">
+    </form>-->
+
+</div>
+
+    <!-- jQuery (necessary for Bootstraps JavaScript plugins) -->
+    <script src="{{ asset('js/jquery.js') }}"></script>
+    <!-- Include all JavaScripts, compiled by Assetic -->
+    <script src="{{ asset('js/bootstrap.js') }}"></script>
+</body>
+</html>

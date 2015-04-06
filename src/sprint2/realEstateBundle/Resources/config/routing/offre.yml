@@ -1,0 +1,54 @@
+offre:
+    path:     /
+    defaults: { _controller: "realEstateBundle:Offre:index" }
+
+offre_show:
+    path:     /{id}/show
+    defaults: { _controller: "realEstateBundle:Offre:show" }
+
+offre_new:
+    path:     /new
+    defaults: { _controller: "realEstateBundle:Offre:new" }
+
+offre_create:
+    path:     /create
+    defaults: { _controller: "realEstateBundle:Offre:create" }
+    requirements: { _method: post }
+
+offre_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "realEstateBundle:Offre:edit" }
+
+offre_update:
+    path:     /{id}/update
+    defaults: { _controller: "realEstateBundle:Offre:update" }
+    requirements: { _method: post|put }
+
+offre_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "realEstateBundle:Offre:delete" }
+    requirements: { _method: post|delete }
+offre_search:
+    path: /search
+    defaults: { _controller: "realEstateBundle:Offre:searchGouvernorat" }
+offre_search_type:
+    path: /search/{type}
+    defaults: { _controller : "realEstateBundle:Offre:searchByType" }
+offre_search_prix:
+    path: /search/{prix}
+    defaults: { _controller: "realEstateBundle:Offre:searchByPrice" }
+offre_search_gerant:
+    path: /search/{id_gerant}
+    defaults: { _controller: "realEstateBundle:Offre:searchByGerant" }
+offre_search_gouvern:
+    path: /search/gouvernorat/
+    defaults: { _controller: "realEstateBundle:Offre:searchGouvernorat" }
+offre_search_ville:
+    path: /ville/gouvernorat
+    defaults: { _controller: "realEstateBundle:Offre:searchVille" }
+offre_search_code:
+    path: /code/ville
+    defaults: { _controller: "realEstateBundle:Offre:searchCode" }
+vote_add:
+    path: /{id}/show/note
+    defaults: { _controller: "realEstateBundle:Vote:create" }

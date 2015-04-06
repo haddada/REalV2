@@ -1,0 +1,62 @@
+<?php
+
+namespace sprint2\realEstateBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Administrateur
+ *
+ * @ORM\Table(name="administrateur")
+ * @ORM\Entity
+ */
+class Administrateur
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="nom", type="string", length=50, nullable=false)
+     */
+    private $nom;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="prenom", type="string", length=50, nullable=false)
+     */
+    private $prenom;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="mot_de_passe", type="string", length=50, nullable=false)
+     */
+    private $motDePasse;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="mail", type="string", length=50, nullable=false)
+     */
+    private $mail;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="privilege", type="integer", nullable=false)
+     */
+    private $privilege;
+
+   
+
+
+}

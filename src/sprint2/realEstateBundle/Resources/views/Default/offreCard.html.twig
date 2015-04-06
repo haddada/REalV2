@@ -1,0 +1,45 @@
+
+
+
+{% extends "realEstateBundle:Default:header.html.twig" %}
+
+    {% block offreCard %}
+    {%for entity in entities %}
+    <div class="col-lg-4 col-md-6 col-sm-12 rm-padding-sm ">
+      <div class="discovery-card rm-padding-sm row-space-4 darken-on-hover " style="background-image:url('https://a0.muscache.com/ic/pictures/discovery/attribute_photos/beach_1x1.jpg?interpolation=lanczos-none&amp;output-format=jpg&amp;output-quality=70&amp;size=large_cover&amp;downsize=326px:326px&amp;v=6');" sm-img-url="https://a0.muscache.com/ic/pictures/discovery/attribute_photos/beach_2x1.jpg?interpolation=lanczos-none&amp;output-format=jpg&amp;output-quality=70&amp;size=large_cover&amp;downsize=655px:326px&amp;v=6">
+    <a href="{{ path('offre_search_gouvern',{'gouvernorat':entity.gouvernorat }) }}" class="link-reset" data-hook="discovery-card" data-id="">
+    <div class="va-container va-container-v va-container-h">
+      <div class="va-middle text-center text-contrast">
+          <div class="h2 strong">
+            {{entity.gouvernorat}}
+          </div>
+      </div>
+    </div>
+    </a>
+</div>
+</div>
+
+{%endfor%}
+
+
+
+
+
+{% endblock %}
+
+{% block offreCard8 %}
+
+  <div class="col-lg-8 col-md-12 rm-padding-sm">
+    <div class="discovery-card rm-padding-sm row-space-4 darken-on-hover " style="background-image:url('https://a1.muscache.com/ic/discover/85?interpolation=lanczos-none&amp;output-format=jpg&amp;output-quality=70&amp;v=33b4f2&amp;downsize=655px:326px');" sm-img-url="https://a1.muscache.com/ic/discover/85?interpolation=lanczos-none&amp;output-format=jpg&amp;output-quality=70&amp;v=33b4f2&amp;downsize=655px:326px">
+    <a href="/offre/search?" class="link-reset" data-hook="discovery-card" data-id="New York">
+    <div class="va-container va-container-v va-container-h">
+      <div class="va-middle text-center text-contrast">
+          <div class="h2 strong">
+            New York
+          </div>
+      </div>
+    </div>
+    </a>
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,39 @@
+  
+
+{%block filterQuartier%}
+ <div class="col-3 text-right col-middle">
+            <div class="h4 text-light">
+                  Villes
+            </div>
+  </div>
+
+<div class="col-lg-9 form-gouvern col-middle">
+        <div class="row row-condensed">
+          <div class="col-md-4 col-sm-12 row-space-1">
+            <div class="select select-block">
+               <select name="Villes" required>
+              {%for ville in villes %}
+                <option value="{{ville.ville}}"> {{ville.ville}}</option>
+              {%endfor%} 
+            </select>
+            </div>
+          </div>
+        </div>
+</div>
+
+
+<script>
+
+$(".form-ville").click(function(){
+   str =$( ".form-ville" ).serialize() ;
+
+    $.get("{{path('offre_search_code')}}?"+str,function( data ) {
+         $( ".code" ).html( data );           
+    })
+
+})
+
+</script>
+
+   
+{%endblock%}

@@ -1,0 +1,32 @@
+Adresse:
+    type: entity
+    table: adresse
+    id:
+        id:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        gouvernorat:
+            type: string
+            nullable: true
+            length: 50
+            fixed: false
+            comment: ''
+        codepostal:
+            type: integer
+            nullable: true
+            unsigned: false
+            comment: ''
+            column: codePostal
+        ville:
+            type: string
+            nullable: true
+            length: 25
+            fixed: false
+            comment: ''
+    lifecycleCallbacks: {  }

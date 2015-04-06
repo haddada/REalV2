@@ -1,0 +1,194 @@
+<?php
+
+namespace sprint2\realEstateBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Offre
+ *
+ * @ORM\Table(name="offre", indexes={@ORM\Index(name="id_gerant", columns={"id_gerant"}), @ORM\Index(name="id_adresse", columns={"id_adresse"})})
+ * @ORM\Entity
+ */
+class Offre
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id_gerant", type="integer", nullable=false)
+     */
+    private $idGerant;
+
+    /**
+     * @var Adresse
+     *
+     * @ORM\ManyToOne(targetEntity="Adresse")
+     * )
+     */
+    private $Adresse;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="etat", type="string", length=20, nullable=false)
+     */
+    private $etat;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="typeImmob", type="string", length=20, nullable=false)
+     */
+    private $typeimmob;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="nature", type="string", length=20, nullable=false)
+     */
+    private $nature;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="payement", type="string", length=20, nullable=false)
+     */
+    private $payement;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="surface", type="integer", nullable=false)
+     */
+    private $surface;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="nbrPiece", type="integer", nullable=false)
+     */
+    private $nbrpiece;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="datePublication", type="date", nullable=true)
+     */
+    private $datepublication;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="dateModification", type="date", nullable=true)
+     */
+    private $datemodification;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="dispobileAPartir", type="date", nullable=true)
+     */
+    private $dispobileapartir;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="description", type="string", length=255, nullable=true)
+     */
+    private $description = 'aucune description disponible';
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="etage", type="integer", nullable=true)
+     */
+    private $etage = '0';
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="ascenceur", type="integer", nullable=true)
+     */
+    private $ascenceur;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="cuisineEquipe", type="integer", nullable=true)
+     */
+    private $cuisineequipe;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="jardin", type="integer", nullable=true)
+     */
+    private $jardin;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="entreeIndep", type="integer", nullable=true)
+     */
+    private $entreeindep;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="gazDeVille", type="integer", nullable=true)
+     */
+    private $gazdeville;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="chauffage", type="integer", nullable=true)
+     */
+    private $chauffage;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="meuble", type="integer", nullable=true)
+     */
+    private $meuble;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="climatisation", type="integer", nullable=true)
+     */
+    private $climatisation;
+
+    /**
+     * @var float
+     *
+     * @ORM\Column(name="note", type="float", precision=5, scale=2, nullable=true)
+     */
+    private $note;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="UrlImage", type="string", length=200, nullable=false)
+     */
+    private $urlimage;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="position", type="string", length=60, nullable=false)
+     */
+    private $position;
+
+
+}

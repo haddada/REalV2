@@ -1,0 +1,173 @@
+sprint2\RealEstate\AdminBundle\Entity\Offre:
+    type: entity
+    table: offre
+    indexes:
+        id_gerant:
+            columns:
+                - id_gerant
+        id_adresse:
+            columns:
+                - id_adresse
+    id:
+        id:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+            id: true
+            generator:
+                strategy: IDENTITY
+    fields:
+        etat:
+            type: string
+            nullable: false
+            length: 20
+            fixed: false
+            comment: ''
+        typeimmob:
+            type: string
+            nullable: false
+            length: 20
+            fixed: false
+            comment: ''
+            column: typeImmob
+        nature:
+            type: string
+            nullable: false
+            length: 20
+            fixed: false
+            comment: ''
+        payement:
+            type: float
+            nullable: false
+            precision: 10
+            scale: 0
+            comment: ''
+        surface:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+        nbrpiece:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+            column: nbrPiece
+        datepublication:
+            type: date
+            nullable: true
+            comment: ''
+            column: datePublication
+        datemodification:
+            type: date
+            nullable: true
+            comment: ''
+            column: dateModification
+        dispobileapartir:
+            type: date
+            nullable: true
+            comment: ''
+            column: dispobileAPartir
+        description:
+            type: string
+            nullable: true
+            length: 255
+            fixed: false
+            comment: ''
+            default: 'aucune description disponible'
+        etage:
+            type: integer
+            nullable: true
+            unsigned: false
+            comment: ''
+            default: '0'
+        ascenceur:
+            type: integer
+            nullable: true
+            unsigned: false
+            comment: ''
+        cuisineequipe:
+            type: integer
+            nullable: true
+            unsigned: false
+            comment: ''
+            column: cuisineEquipe
+        jardin:
+            type: integer
+            nullable: true
+            unsigned: false
+            comment: ''
+        entreeindep:
+            type: integer
+            nullable: true
+            unsigned: false
+            comment: ''
+            column: entreeIndep
+        gazdeville:
+            type: integer
+            nullable: true
+            unsigned: false
+            comment: ''
+            column: gazDeVille
+        chauffage:
+            type: integer
+            nullable: true
+            unsigned: false
+            comment: ''
+        meuble:
+            type: integer
+            nullable: true
+            unsigned: false
+            comment: ''
+        climatisation:
+            type: integer
+            nullable: true
+            unsigned: false
+            comment: ''
+        note:
+            type: float
+            nullable: true
+            precision: 5
+            scale: 2
+            comment: ''
+        urlimage:
+            type: string
+            nullable: false
+            length: 200
+            fixed: false
+            comment: ''
+            column: UrlImage
+        position:
+            type: string
+            nullable: true
+            length: 60
+            fixed: false
+            comment: ''
+        nbnote:
+            type: integer
+            nullable: false
+            unsigned: false
+            comment: ''
+            default: '1'
+            column: NbNote
+    manyToOne:
+        idAdresse:
+            targetEntity: Adresse
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_adresse:
+                    referencedColumnName: id
+            orphanRemoval: false
+        idGerant:
+            targetEntity: Utilisateur
+            cascade: {  }
+            mappedBy: null
+            inversedBy: null
+            joinColumns:
+                id_gerant:
+                    referencedColumnName: id
+            orphanRemoval: false
+    lifecycleCallbacks: {  }

@@ -1,0 +1,9 @@
+sprint2\realEstateBundle\Entity\Offre:
+    properties:
+        etat:
+            - NotEqualTo:
+                value: -1
+        typeimmob:
+            - NotEqualTo:
+                value: -1
+        

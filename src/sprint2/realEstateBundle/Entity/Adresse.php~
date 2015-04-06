@@ -1,0 +1,46 @@
+<?php
+
+namespace sprint2\realEstateBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Adresse
+ *
+ * @ORM\Table(name="adresse")
+ * @ORM\Entity
+ */
+class Adresse
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="gouvernorat", type="string", length=50, nullable=true)
+     */
+    private $gouvernorat;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="codePostal", type="integer", nullable=true)
+     */
+    private $codepostal;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="ville", type="string", length=25, nullable=true)
+     */
+    private $ville;
+
+
+}

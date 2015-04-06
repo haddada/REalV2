@@ -1,0 +1,12 @@
+<h1>symfony Apple store demo</h1>
+<div id="shopping_cart">
+<h2>Products:</h2>
+<div id="product_list">
+<?php foreach ($products as $id => $title): ?>
+<?php echo image_tag('product'.$id, array('id' => 'product_'.$id, 'class' => 'products' )) ?>
+<?php endforeach; ?>
+</div>
+<h2>Cart:</h2>
+<div id="cart" class="cart">
+</div>
+</div>
